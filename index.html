@@ -6,45 +6,69 @@
     <title>Portofoil</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 <body>
-  
 
-    <div class="NameBox">
-        <p>Erik Aj</p>
+    
+    <script>
+        AOS.init({
+          duration: 1000, 
+          easing: 'ease', 
+          once: true, 
+        });
+      </script>       
+
+
+    <div class="TopText" data-aos="fade-up" id="TopText">
+        
+        <div>search bar</div>
+
+
+        <a href="#AboutMe"class="TText">
+            <span class="material-icons">person</span> About Me</a>
+  
+        <a href="#"class="TText">
+            <span class="material-icons">folder</span> Projects</a>
+
+        <a href="#contact"class="TText">
+            <span class="material-icons">contact_mail</span> Contact Me</a>
+        
     </div>
 
 
-    <div class="TopText">
-        <a href="#"class="TText"id="Home">
-            <span class="material-icons">home</span> Home</a>
+<div class="About" id="AboutMe" data-aos="fade-up">
+    <div class="TopAbout"  data-aos="fade-left">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis error tempore totam fugiat. Voluptatibus repellat perspiciatis atque sint enim!</p>
+    </div>
+    <div class="BottomAbout" data-aos="fade-right">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi esse ad expedita fugit similique omnis perspiciatis iste nostrum temporibus error. Maxime adipisci veniam necessitatibus tenetur quas ut dignissimos cum architecto!</p>
+    </div>
+</div>
 
-        <a href="#" class="TText">
-            <span class="material-icons"><span class="material-symbols-outlined">
-                location_city</span></span> Cities</a>
-            
-        <a href="#"class="TText">
-            <span class="material-icons">info</span> Information</a>
+<div class="MyProjects">
+    side animations
+    <a href="Download/Bilder.zip" download>link_text</a>
+</div>
 
-        <a href="#"class="TText">
-            <span class="material-icons">account_circle</span> Login</a>
-        
-     </div>
-    
-    <section id="contact">
+
+
+    <section id="contact" data-aos="fade-left">
         <h2>Contact Me</h2>
         <form action="#">
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Your Email" required>
             <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
+            <button type="submit">Send</button> 
         </form>
     </section>
 
+
     <footer></footer>
-        <p>&copy; 2024 Your Name</p>
+        <p>&copy; Erik Aj</p>
     </footer>
 
-
+    <script src="size.js"></script>
 </body>
 </html>
