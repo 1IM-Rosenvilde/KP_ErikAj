@@ -13,9 +13,29 @@ function resizeTaskbarOnScroll() {
 }
 
 
-window.onload = function() {
-    window.scrollTo(0, 0);  
-};
+window.addEventListener('load', function() {
+    document.body.classList.add('loaded'); // Reveal body after page load
+  });
+  
+  AOS.init({
+    duration: 1000,  
+    easing: 'ease',  
+    once: false,    
+    mirror: true   
+  });
 
+
+
+
+window.onload = function() {
+    setTimeout(() => window.scrollTo(0, 0), 100); 
+  };
+  
+  AOS.init({
+    duration: 1000,  
+    easing: 'ease',  
+    once: false,     
+    mirror: true
+  });
 
 window.addEventListener("scroll", resizeTaskbarOnScroll);
