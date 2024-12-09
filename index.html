@@ -11,47 +11,111 @@
 </head>
 <body>
 
-    
     <script>
         AOS.init({
           duration: 1000, 
           easing: 'ease', 
           once: true, 
         });
-      </script>       
-
+    </script>       
 
     <div class="TopText" data-aos="fade-up" id="TopText">
-        
         <div class="topnav"><input type="text" placeholder="Search.."></div>
-
-
-        <a href="#AboutMe"class="TText">
+        <a href="#AboutMe" class="TText">
             <span class="material-icons">person</span> About Me</a>
-  
-        <a href="#"class="TText">
+        <a href="#ProjectID" class="TText">
             <span class="material-icons">folder</span> Projects</a>
-
-        <a href="#contact"class="TText">
+        <a href="#contact" class="TText">
             <span class="material-icons">contact_mail</span> Contact Me</a>
-        
     </div>
 
-
-<div class="About" id="AboutMe" data-aos="fade-up">
-    <div class="TopAbout"  data-aos="fade-left">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis error tempore totam fugiat. Voluptatibus repellat perspiciatis atque sint enim!</p>
+    <div class="About" id="AboutMe" data-aos="fade-up">
+        <div class="TopAbout" data-aos="fade-left">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia reiciendis error tempore totam fugiat. Voluptatibus repellat perspiciatis atque sint enim!</p>
+        </div>
+        <div class="BottomAbout" data-aos="fade-right">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi esse ad expedita fugit similique omnis perspiciatis iste nostrum temporibus error. Maxime adipisci veniam necessitatibus tenetur quas ut dignissimos cum architecto!</p>
+        </div>
     </div>
-    <div class="BottomAbout" data-aos="fade-right">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi esse ad expedita fugit similique omnis perspiciatis iste nostrum temporibus error. Maxime adipisci veniam necessitatibus tenetur quas ut dignissimos cum architecto!</p>
+
+    <div id="ProjectID"></div>
+
+    <div class="MyProjects">
+        <div class="row1">
+            <div class="Project">
+                <img class="ProjectImage image1" src="Images/ShanghaiPr1.jpg" alt="">
+                <div class="ProjectContent">
+                    <p>Shanghai Blog</p>
+                    <a href="Download/ShanghaiBlog.zip" class="download-button">Download</a>
+                </div>
+            </div>
+            <div class="Project">
+                <img class="ProjectImage image2" src="Images/LogoT.png" alt="">
+                <div class="ProjectContent">
+                    <p>Art Website</p>
+                    <a href="Download/Artweb.zip" class="download-button">Download</a>
+                </div>
+            </div>
+            <div class="Project">
+                <img class="ProjectImage image3" src="Images/BashameMouse1.png" alt="">
+                <div class="ProjectContent">
+                    <p>Bashame Clicker</p>
+                    <a href="Download/BashameClicker.zip" class="download-button">Download</a>
+                </div>
+            </div>
+            <div class="Project">
+                <img class="ProjectImage image4" src="Images/partall.png" alt="">
+                <div class="ProjectContent">
+                    <p>Odd or Even</p>
+                    <a href="Download/Odd or Even.zip" class="download-button">Download</a>
+                </div>
+            </div>
+            <div class="Project">
+                <img class="ProjectImage image5" src="Images/BashameUnit1.png" alt="">
+                <div class="ProjectContent">
+                    <p>Bashame Units</p>
+                    <a href="Download/BashameUnit.zip" class="download-button">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="Project">
+                <img class="ProjectImage image6" src="Images/Project6.jpg" alt="">
+                <div class="ProjectContent">
+                    <p>Project 6 Description</p>
+                    <a href="Download/Project6.zip" class="download-button">Download</a>
+                </div>
+            </div>
+            <div class="Project">
+                <img class="ProjectImage image7" src="Images/Project7.jpg" alt="">
+                <div class="ProjectContent">
+                    <p>Project 7 Description</p>
+                    <a href="Download/Project7.zip" class="download-button">Download</a>
+                </div>
+            </div>
+            <div class="Project">
+                <img class="ProjectImage image8" src="Images/Project8.jpg" alt="">
+                <div class="ProjectContent">
+                    <p>Project 8 Description</p>
+                    <a href="Download/Project8.zip" class="download-button">Download</a>
+                </div>
+            </div>
+            <div class="Project">
+                <img class="ProjectImage image9" src="Images/Project9.jpg" alt="">
+                <div class="ProjectContent">
+                    <p>Project 9 Description</p>
+                    <a href="Download/Project9.zip" class="download-button">Download</a>
+                </div>
+            </div>
+            <div class="Project">
+                <img class="ProjectImage image10" src="Images/Project10.jpg" alt="">
+                <div class="ProjectContent">
+                    <p>Project 10 Description</p>
+                    <a href="Download/Project10.zip" class="download-button">Download</a>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-
-<div class="MyProjects">
-    side animations
-    <a href="Download/Bilder.zip" download>link_text</a>
-</div>
-
 
     <section id="contact" data-aos="fade-left">
         <h2>Contact Me</h2>
@@ -59,15 +123,19 @@
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Your Email" required>
             <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button> 
+            <div class="button-container">
+                <button type="submit">Send</button>
+                <button type="button">Cancel</button>
+            </div>
         </form>
     </section>
 
-
-    <footer></footer>
+    <footer>
         <p>&copy; Erik Aj</p>
+        <a href="Download/Bilder.zip" download>link_text</a>
     </footer>
 
     <script src="size.js"></script>
 </body>
-</html>
+</html> 
+

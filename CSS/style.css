@@ -7,34 +7,45 @@
 
 body {
     display: flex;
-   background-color: rgba(153, 160, 167, 0.458);
-   flex-direction: column;
-   justify-content: space-around;
-   margin: 0;
-   overflow-x: hidden;
-}  
+    background-color: rgba(153, 160, 167, 0.458);
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    overflow-x: hidden;
+    animation: fadeIn 1s; /* Animation on load */
+}
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Hover effect for Project boxes */
+.Project:hover {
+    transform: scale(1.05); /* Slightly enlarge the project box */
+    transition: transform 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
 
 body.loading {
     overflow: hidden;
 }
 
-body.loaded {
-    overflow: auto;
-  } 
-
 html{
-
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 
 .material-icons{
     display: flex;   
-     text-decoration: none;
-     align-items: center;
- }
+    text-decoration: none;
+    align-items: center;
+}
 
- 
 .TopText{
     display: flex;
     flex-direction: row;
@@ -52,6 +63,7 @@ html{
     top: 0; 
     z-index: 1000; 
     box-sizing: border-box;
+    transition: padding 0.3s ease, font-size 0.3s ease; /* Smooth transition */
 }   
 
 .TText:hover{
@@ -59,7 +71,6 @@ html{
     color: black;
     border-radius: 2vh;
 }
-
 
 .TopText .TText{
     color: inherit;
@@ -69,15 +80,14 @@ html{
     padding: 0.5vh;    
 }
 
-
 .About{
-display: flex;
-flex-direction: column;   
-justify-content: center; 
-width: 100%;
-height: 20em;
-gap: 5em;
-font-size: 1.3em;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    width: 100%;
+    height: 20em;
+    gap: 5em;
+    font-size: 1.3em;
 }
 
 .TopAbout{
@@ -136,9 +146,9 @@ font-size: 1.3em;
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
-  }
+}
 
-
+/*
   @media screen and (max-width: 600px) {
      .topnav input[type=text] {
       float: none;
@@ -152,3 +162,119 @@ font-size: 1.3em;
       border: 1px solid #ccc;
     }
   }
+*/
+
+.MyProjects {
+    display: flex;
+    flex-direction: column; /* Stack rows vertically */
+    width: 100%;
+}
+
+.row1, .row2 {
+    display: flex;
+    justify-content: space-between; /* Space out the projects evenly */
+    width: 100%;
+}
+
+.Project {
+    display: flex;
+    flex-direction: column; /* Stack image and content vertically */
+    width: 18%; /* Adjust width for 5 boxes in a row */
+    margin: 1%; /* Add margin for spacing */
+    background-color: white; /* Change background color */
+    border: 1px solid #ddd; /* Optional: Add border */
+    border-radius: 5px; /* Optional: Rounded corners */
+    overflow: hidden; /* Prevent overflow */
+    height: 300px; /* Set a fixed height for uniformity */
+    justify-content: flex-start; /* Align items to the start */
+    align-items: center; /* Center content horizontally */
+}
+
+.ProjectImage {
+    width: 100%; /* Ensure the image fills the width of the container */
+    height: 60%; /* Set a specific height for the image */
+    object-fit: cover; /* Cover the entire area while maintaining aspect ratio */
+}
+
+.ProjectContent {
+    padding: 10px; /* Add padding for content */
+    text-align: center; /* Center text */
+    flex-grow: 1; /* Allow content to take up remaining space */
+}
+
+.download-button {
+    display: inline-block; /* Make it a block element */
+    padding: 10px 20px; /* Add padding */
+    background: #333; /* Button background */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.download-button:hover {
+    background: #555; /* Darker background on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+.Project1Bilde{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 600px) {
+    .TopText {
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Allow height to adjust */
+        font-size: 1em; /* Further reduce font size */
+    }
+
+    .TopText .TText {
+        padding: 0.5vh; /* Adjust padding for smaller screens */
+        font-size: 0.8em; /* Further reduce font size */
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: column; /* Arrange form elements in a column */
+        align-items: center; /* Center items */
+    }
+
+    #contact form {
+        display: flex;
+        flex-direction: column; /* Arrange form elements in a column */
+        width: 100%; /* Make form full width */
+    }
+
+    #contact .button-container {
+        display: flex; /* Arrange buttons in a row */
+        justify-content: center; /* Center buttons */
+        width: 100%; /* Full width for button container */
+    }
+
+    #contact button {
+        width: auto; /* Set button width to auto */
+        margin: 5px; /* Add margin for spacing */
+        font-size: 0.9rem; /* Reduce button font size */
+        padding: 10px 15px; /* Add padding for buttons */
+    }
+
+    .MyProjects .row1, .MyProjects .row2 {
+        flex-direction: column; /* Stack project rows vertically */
+        align-items: center; /* Center items */
+    }
+
+    .Project {
+        width: 90%; /* Make project boxes wider on mobile */
+        margin: 10px 0; /* Add vertical margin */
+    }
+
+    #contact input, #contact textarea {
+        font-size: 0.9rem; /* Reduce font size */
+    }
+}
+
+    
