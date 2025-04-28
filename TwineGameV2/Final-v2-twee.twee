@@ -1,0 +1,1724 @@
+:: StoryTitle
+Historie uten navn
+
+
+:: StoryData
+{
+  "ifid": "DE60E8F2-FE2B-49D0-8177-C0DD36F4832D",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Intro",
+  "zoom": 1
+}
+
+
+:: Aproach {"position":"775,450","size":"100,100"}
+(live: 0.0s)[The sound of squelching footsteps approaches from behind.]
+(live: 0.8s)[You glance back — it’s the man from the river, soaked and shivering.]
+
+(live: 1.6s)["You just stood there," he says flatly, eyes narrowed. "Figured I’d drown."]
+
+(live: 2.4s)[You stay silent. He studies you, then chuckles bitterly.]
+
+(live: 3.2s)["Not much of a hero, are you? But... you didn’t walk away either. That’s something."]
+
+(live: 4.0s)[He digs into a pouch tied to his belt and tosses a few worn coins your way.]
+
+(set: $money to $money + 5)
+
+(live: 4.8s)["Five crowns. It’s not much, but I won’t owe anyone — even someone like you."]
+
+(live: 5.6s)[He sighs, glancing at the overcast sky.]
+
+(live: 6.4s)["Look, I know this land better than you. There's a tavern not far from here."]
+(live: 7.2s)["We go our separate ways after that, yeah?"]
+
+[[Head to the tavern|ToTavern]]
+
+
+
+:: Arrival in Maximoria {"position":"125,2375","size":"100,100"}
+**What do you want to ask?**
+
+* [[Ask about the Emperor|Ask Emperor]]
+* [[Ask about the Everflame|Ask Everflame]]
+* [[Ask about Kristinus himself|Ask Kristinus]]
+
+
+
+:: Arrival in Maximoria1 {"position":"800,2300","size":"100,100"}
+**What do you want to ask?**
+
+* [[Ask about the Emperor|Ask Emperor1]]
+* [[Ask about the Everflame|Ask Everflame1]]
+* [[Ask about Kristinus himself|Ask Kristinus1]]
+
+
+
+:: Ask Emperor {"position":"300,2175","size":"100,100"}
+(live: 0.0s)[You look Kristinus in the eye. "What happened to the Emperor? Why do we feel his presence here?"]
+
+(live: 0.4s)[Kristinus's expression darkens slightly. "Emperor Evantor was once a beacon of wisdom… but something changed. He sought power beyond the veil, and in doing so, lost himself."]
+
+(live: 0.8s)["He was sealed away. Where, no one knows for certain. But the old tales say a prison was built far, far beneath this very city. A vault forged in silence and sorrow."]
+
+[[Ask something else|Arrival in Maximoria]]
+[[Continue|Stair of Heaven]]
+
+
+:: Ask Emperor1 {"position":"950,2200","size":"100,100"}
+(live: 0.0s)[You look Kristinus in the eye. "What happened to the Emperor? Why do we feel his presence here?"]
+
+(live: 0.4s)[Kristinus's expression darkens slightly. "Emperor Evantor was once a beacon of wisdom… but something changed. He sought power beyond the veil, and in doing so, lost himself."]
+
+(live: 0.8s)["He was sealed away. Where, no one knows for certain. But the old tales say a prison was built far, far beneath this very city. A vault forged in silence and sorrow."]
+
+[[Ask something else|Arrival in Maximoria1]]
+[[Continue|Stair of Heaven1]]
+
+
+:: Ask Everflame {"position":"425,2200","size":"100,100"}
+(live: 0.0s)["What is the Everflame really?" you ask.]
+
+(live: 0.4s)[Kristinus nods slowly. "It is older than this city. Older than the Empire. Some believe it is the breath of the divine. Others say it is a test—of will, truth, and soul."]
+
+(live: 0.8s)["What I know is this: those who stand before it are changed. Whether for better or worse… that depends on what burns within."]
+
+[[Ask something else|Arrival in Maximoria]]
+[[Continue|Stair of Heaven]]
+
+
+:: Ask Everflame1 {"position":"1125,2200","size":"100,100"}
+(live: 0.0s)["What is the Everflame really?" you ask.]
+
+(live: 0.4s)[Kristinus nods slowly. "It is older than this city. Older than the Empire. Some believe it is the breath of the divine. Others say it is a test—of will, truth, and soul."]
+
+(live: 0.8s)["What I know is this: those who stand before it are changed. Whether for better or worse… that depends on what burns within."]
+
+[[Ask something else|Arrival in Maximoria1]]
+[[Continue|Stair of Heaven1]]
+
+
+:: Ask Kristinus {"position":"550,2200","size":"100,100"}
+(live: 0.0s)["Who are you, really?" you ask. "How do you know so much about all this?"]
+
+(live: 0.4s)[Kristinus smiles faintly. "I was once like you. A traveler. A seeker. Illumina showed me a path, and I chose to guide rather than command."]
+
+(live: 0.8s)["My duty is to hold the light, even when the shadows stretch long. Especially then."]
+
+[[Ask something else|Arrival in Maximoria]]
+[[Continue|Stair of Heaven]]
+
+
+:: Ask Kristinus1 {"position":"1275,2200","size":"100,100"}
+(live: 0.0s)["Who are you, really?" you ask. "How do you know so much about all this?"]
+
+(live: 0.4s)[Kristinus smiles faintly. "I was once like you. A traveler. A seeker. Illumina showed me a path, and I chose to guide rather than command."]
+
+(live: 0.8s)["My duty is to hold the light, even when the shadows stretch long. Especially then."]
+
+[[Ask something else|Arrival in Maximoria1]]
+[[Continue|Stair of Heaven1]]
+
+
+:: Ask Moriko {"position":"425,2925","size":"100,100"}
+(live: 0.0s)[You stop, looking to Moriko. He seems to notice the uncertainty in your eyes.]
+
+(live: 0.4s)["What's really going on here, Moriko?" you ask, your voice low. "What is this presence we keep feeling?"]
+
+(live: 0.8s)[Moriko takes a slow breath, his eyes scanning the distance before looking back at you.]
+
+(live: 1.2s)["The **Saint’s Promenade**... It's more than just an old pathway," he says softly. "This is a place where ancient powers converge. It’s a place where time and fate twist in strange ways. The presence you feel? It’s the weight of centuries of forgotten magic, the echoes of power from before the world knew order."]
+
+(live: 1.6s)[His expression is solemn, eyes filled with a depth of understanding that hints at darker things.]
+
+(live: 2.0s)["But... we must continue. If we're to reach the **Everflame**, we must push forward. Whatever it is we face, we cannot turn back." He looks at you seriously. "Trust in your strength and your companions." You nod, feeling his words linger in the air.]
+
+[[Continue forward|Continue Forward]]
+
+
+:: Ask Questions {"position":"1075,3100","size":"100,100"}
+(live: 0.0s)[The summit is here, and there, in the brilliant light of the Everflame, stands the figure you've felt so long.]
+
+(live: 0.4s)[The Emperor, a towering presence, stands motionless before you.]
+
+(live: 0.8s)[His armor is broken, worn, but the aura he radiates is undeniable.]
+
+(live: 1.2s)[Beside him, a figure cloaked in shadow moves silently, standing close, a subtle hint of familiarity in the way they hold themselves.]
+
+(live: 1.6s)[The Emperor speaks, not with words but with a voice felt deep in your mind. "Seekers of fate... You dare to trespass into the realm of the forgotten. Do you not know the price?"]
+
+(live: 2.0s)[Levan steps back, eyes wide with uncertainty, his hand hovering near his wound, but he says nothing.]
+
+(live: 2.4s)[The cloaked figure near the Emperor shifts slightly, their posture tense, as though prepared to act at any moment.]
+
+(live: 2.8s)[You glance between the two of them, feeling the weight of the moment pressing in. The air itself seems charged, and the sense of power radiating from the Emperor is almost suffocating.]
+
+(live: 3.2s)["What do you want from us?" Levan asks, voice a little strained.]
+
+(live: 3.6s)[The Emperor remains silent for a moment, his presence still overwhelming.]
+
+(live: 4.0s)[The cloaked figure steps forward slightly, their gaze piercing, as if studying you carefully. But still, no words come from them.]
+
+[[Ask the Emperor a question|Emperor's Question1]]
+
+
+:: Buy from Gortak {"position":"500,1200","size":"100,100"}
+(live: 0.0s)[You inspect his wares and pick out a few items that might prove useful: some basic provisions, a healing salve, and a map of nearby areas.]
+
+(live: 0.4s)[You glance at your coin pouch, but it seems you don't have enough money to pay for everything.]
+
+(live: 0.8s)[Gortak, sensing your hesitation, raises an eyebrow. "I see you don’t have enough crowns. Perhaps you'd be willing to part with something of value in exchange for these supplies?" he suggests with a sly smile.]
+
+(live: 1.2s)[You think for a moment. Your dagger or sword could be worth enough to make up the difference. Which will you sacrifice?]
+
+[[Sell your dagger|Sell Dagger]]
+[[Sell your sword|Sell Sword]]
+
+
+:: Buy from Gortak2 {"position":"800,1175","size":"100,100"}
+(live: 0.0s)[You inspect his wares and pick out a few items that might prove useful: some basic provisions, a healing salve, and a map of nearby areas.]
+
+(live: 0.4s)[You glance at your coin pouch, but it seems you don't have enough money to pay for everything.]
+
+(live: 0.8s)[Gortak, sensing your hesitation, raises an eyebrow. "I see you don’t have enough crowns. Perhaps you'd be willing to part with something of value in exchange for these supplies?" he suggests with a sly smile.]
+
+(live: 1.2s)[You think for a moment. Your dagger or sword could be worth enough to make up the difference. Which will you sacrifice?]
+
+[[Sell your dagger|Sell Dagger2]]
+[[Sell your sword|Sell Sword2]]
+
+
+:: Confront Rax’kesh {"position":"200,1025","size":"100,100"}
+(live: 0.0s)[You track down Rax’kesh and his gang hiding in a dark alley.]
+(live: 0.2s)[The air smells of rust and old smoke. A flickering torch on the wall barely illuminates the scene.]
+(live: 0.4s)[Rax’kesh, a scruffy goblin with sharp teeth, steps forward with a mocking grin.]
+(live: 0.6s)[His gang, a mix of burly goblins and shifty-eyed thieves, surrounds you.]
+(live: 0.8s)[They cross their arms, eyeing you suspiciously.]
+
+(live: 1.0s)["So, you’ve come to try and take back what’s mine, huh?" Rax’kesh sneers.]
+(live: 1.2s)["You’ve got guts, I’ll give you that. But you’ve made a mistake."]
+
+(live: 1.4s)[He taps the side of his head with a dagger, eyes gleaming maliciously.]
+(live: 1.6s)["You see, you’re not the only one who’s been taking risks. We’ve got all the power we need."]
+(live: 1.8s)["So, if you think you can just waltz in here and take what’s mine—think again!"]
+
+
+[[Fight them|Fight Alone]]
+[[Try to negotiate|Negotiation Attempt]]
+
+
+:: Confront Rax’kesh2 {"position":"1325,925","size":"100,100"}
+(live: 0.0s)[You track down Rax’kesh and his gang hiding in a dark alley.]
+(live: 0.2s)[The air smells of rust and old smoke. A flickering torch on the wall barely illuminates the scene.]
+(live: 0.4s)[Rax’kesh, a scruffy goblin with sharp teeth, steps forward with a mocking grin.]
+(live: 0.6s)[His gang, a mix of burly goblins and shifty-eyed thieves, surrounds you.]
+(live: 0.8s)[They cross their arms, eyeing you suspiciously.]
+
+(live: 1.0s)["So, you’ve come to try and take back what’s mine, huh?" Rax’kesh sneers.]
+(live: 1.2s)["You’ve got guts, I’ll give you that. But you’ve made a mistake."]
+
+(live: 1.4s)[He taps the side of his head with a dagger, eyes gleaming maliciously.]
+(live: 1.6s)["You see, you’re not the only one who’s been taking risks. We’ve got all the power we need."]
+(live: 1.8s)["So, if you think you can just waltz in here and take what’s mine—think again!"]
+
+[[Fight them alone|Fight Alone2]]
+[[Try to negotiate|Negotiation Attempt2]]
+
+
+:: Continue {"position":"525,2775","size":"100,100"}
+(live: 0.0s)[The path stretches onward, the **Saint's Promenade** leading you deeper into the unknown.]
+
+(live: 0.4s)[The ground is littered with ancient relics, remnants of a forgotten era, as you walk beside your companions.]
+
+(live: 0.8s)[Moriko moves quietly ahead, eyes scanning their surroundings.]
+
+(live: 1.2s)[Moriko keeps a steady pace, his eyes flicking to the shadowed corners of the street. Levan, on the other hand, seems lost in thought, occasionally glancing back as if searching for something.]
+
+(live: 1.6s)[You feel it again—a strange sensation, an unsettling presence, pulling at the edges of your mind.]
+
+(live: 2.0s)[The air feels heavier, the world itself seemingly holding its breath.]
+
+(live: 2.4s)[Moriko looks over his shoulder, his face unreadable. "You feel it too, don't you?" he says, his voice low.]
+
+(live: 2.8s)[Moriko glances at him. "This is no ordinary place. Something stirs here, something old."]
+
+(live: 3.2s)[Levan lets out a quiet breath. "I don't like it... but we need to keep moving. Whatever it is, it's not a good sign."]
+
+(live: 3.6s)[As you continue walking, the path gradually ascends, winding its way toward the distant silhouette of **The Everflame Beacon**, now visible against the horizon.]
+
+(live: 4.0s)[As you near the base of the Beacon's stairs, the feeling intensifies. Your heart beats faster. There's something at the top, something waiting.]
+
+(live: 4.4s)[You stop for a moment, trying to shake off the unease.]
+
+(live: 4.8s)[Moriko turns to you. "If you have questions about what's happening, now is the time to ask. There's more to this place than meets the eye."]
+
+[[Ask Moriko a question|Ask Moriko]]
+
+[[Continue on toward the stairs|Continue Forward]]
+
+
+:: Continue Alone {"position":"775,325","size":"100,100"}
+(live: 0.0s)[You watch as the man fights against the river’s current, gasping and flailing.]
+(live: 0.8s)[For a moment, it looks like he’ll be swept away.]
+(live: 1.6s)[But then, with a surge of effort, he grabs onto a broken tree root near the bank.]
+(live: 2.4s)[He hauls himself out of the water, coughing and shivering.]
+
+(live: 3.2s)[You turn to leave, but hear him calling after you weakly.]
+(live: 4.0s)[“Wait... You were going to let me drown.”]
+
+(live: 4.8s)[You say nothing. There's no trust built here — only silence and tension.]
+
+(live: 5.6s)[The man slowly stands, soaked and shaking, but alive.]
+(live: 6.4s)[“...Name’s Levan,” he mutters. “I guess we’re both lost here.”]
+
+(live: 7.2s)[Despite the rocky start, he decides to follow at a distance — curiosity or survival, it’s hard to tell.]
+
+[[Next|Aproach]]
+
+
+:: Continue Forward {"position":"600,2900","size":"100,100"}
+(live: 0.0s)[With the conversation over, you press forward.]
+
+(live: 0.4s)[The path leads to a **grand staircase**—stone steps that seem to climb forever toward the horizon.]
+
+(live: 0.8s)[As you begin your ascent, the presence grows stronger. The weight of it presses down on you with each step.]
+
+(live: 1.2s)[You glance around. Moriko leads the way, his face unreadable. Levan is quieter than usual, and Moriko watches the steps with a guarded expression.]
+
+(live: 1.6s)[You all climb, higher and higher, the sound of your footsteps echoing against the ancient stone.]
+
+(live: 2.0s)[At the top, you see the **Everflame Beacon**—a tall, ancient structure bathed in ethereal light.]
+
+(live: 2.4s)[Before you can catch your breath, the feeling intensifies once again.]
+
+(live: 2.8s)[The **Emperor's presence** is undeniable, radiating from somewhere at the summit, though you can’t see him yet.]
+
+(live: 3.2s)[Whatever this is, whatever is waiting for you, it's close.]
+
+[[Ascend toward the Everflame Beacon|Emperor Encounter]]
+
+
+:: Continue Forward1 {"position":"1075,2975","size":"100,100"}
+(live: 0.0s)[With the conversation over, you press forward.]
+
+(live: 0.4s)[The path leads to a **grand staircase**—stone steps that seem to climb forever toward the horizon.]
+
+(live: 0.8s)[As you begin your ascent, the presence grows stronger. The weight of it presses down on you with each step.]
+
+(live: 1.6s)[You both climb, higher and higher, the sound of your footsteps echoing against the ancient stone.]
+
+(live: 2.0s)[At the top, you see the **Everflame Beacon**—a tall, ancient structure bathed in ethereal light.]
+
+(live: 2.4s)[Before you can catch your breath, the feeling intensifies once again.]
+
+(live: 2.8s)[The **Emperor's presence** is undeniable, radiating from somewhere at the summit, though you can’t see him yet.]
+
+(live: 3.2s)[Whatever this is, whatever is waiting for you, it's close.]
+
+[[Ascend toward the Everflame Beacon|Ask Questions]]
+
+
+
+
+:: Continue to Maximoria {"position":"550,1075","size":"100,100"}
+(live: 0.0s)[You decide to pass on helping Stigi Stig. Instead, you continue your search for another merchant who might have supplies or information more useful to your journey.]
+
+(live: 0.4s)[Levan nods, seemingly relieved by your decision, while Moriko says nothing, keeping his gaze ahead.]
+
+(live: 0.8s)[As you walk through the bustling streets of Grubnash Hold, you hear the typical shouts of goblins hawking their wares and offers of strange trinkets.]
+
+(live: 1.2s)["There's gotta be someone here who isn't trying to swindle us," Levan mutters under his breath, keeping his hands close to his coin pouch.]
+
+(live: 1.6s)[After a few moments of searching, you spot an older goblin merchant standing beside a stall full of curiosities. His name is Gortak, a seasoned seller with a weathered face and a collection of items that seem far more legitimate than Stigi's junk.]
+
+(live: 2.0s)[He greets you with a raspy voice. "Ah, travelers! I have goods from across the lands, items that might interest you. What can I offer you today?"]
+
+(live: 2.4s)[You approach, eyeing his wares. He doesn't seem to be the type to make trouble. 
+
+[[Ask about his wares|Buy from Gortak]]
+[[Ask about the world|Gortak's Stories]]
+
+
+:: Continue to Maximoria2 {"position":"875,1025","size":"100,100"}
+(live: 0.0s)[You decide to pass on helping Stigi Stig. Instead, you continue your search for another merchant who might have supplies or information more useful to your journey.]
+
+(live: 0.4s)[Levan nods, seemingly relieved by your decision, while Moriko says nothing, keeping his gaze ahead.]
+
+(live: 0.8s)[As you walk through the bustling streets of Grubnash Hold, you hear the typical shouts of goblins hawking their wares and offers of strange trinkets.]
+
+(live: 1.2s)["There's gotta be someone here who isn't trying to swindle us," Levan mutters under his breath, keeping his hands close to his coin pouch.]
+
+(live: 1.6s)[After a few moments of searching, you spot an older goblin merchant standing beside a stall full of curiosities. His name is Gortak, a seasoned seller with a weathered face and a collection of items that seem far more legitimate than Stigi's junk.]
+
+(live: 2.0s)[He greets you with a raspy voice. "Ah, travelers! I have goods from across the lands, items that might interest you. What can I offer you today?"]
+
+(live: 2.4s)[You approach, eyeing his wares. He doesn't seem to be the type to make trouble. 
+
+[[Ask about his wares|Buy from Gortak2]]
+[[Ask about the world|Gortak's Stories2]]
+
+
+:: Continue1 {"position":"1075,2825","size":"100,100"}
+(live: 0.0s)[The path stretches onward, the **Saint's Promenade** leading you deeper into the unknown.]
+
+(live: 0.4s)[The ground is littered with ancient relics, remnants of a forgotten era, as you walk beside your companions.]
+
+(live: 0.8s)[You move quietly ahead, eyes scanning their surroundings.]
+
+(live: 1.6s)[You feel it again—a strange sensation, an unsettling presence, pulling at the edges of your mind.]
+
+(live: 2.0s)[The air feels heavier, the world itself seemingly holding its breath.]
+
+(live: 2.4s)[Levan looks over his shoulder, his face unreadable. "You feel it too, don't you?" he says, his voice low.]
+
+(live: 3.2s)[Levan lets out a quiet breath. "I don't like it... but we need to keep moving. Whatever it is, it's not a good sign."]
+
+(live: 3.6s)[As you continue walking, the path gradually ascends, winding its way toward the distant silhouette of **The Everflame Beacon**, now visible against the horizon.]
+
+(live: 4.0s)[As you near the base of the Beacon's stairs, the feeling intensifies. Your heart beats faster. There's something at the top, something waiting.]
+
+(live: 4.4s)[You stop for a moment, trying to shake off the unease.]
+
+
+
+[[Continue on toward the stairs|Continue Forward1]]
+
+
+:: Credits {"position":"850,3800","size":"100,100"}
+Original Story-Erik. Aj
+Pictures-Deepdreamgenerator
+Cinematized text and details- Chatgpt(basically used it to make the text more intresting, not to add more )
+
+
+:: Emperor Encounter {"position":"575,3025","size":"100,100"}
+(live: 0.0s)[The summit is here, and there, in the brilliant light of the Everflame, stands the figure you've felt so long.]
+
+(live: 0.4s)[The **Emperor**, a towering presence, stands motionless before you.]
+
+(live: 0.8s)[His armor is broken, worn, but the aura he radiates is undeniable.]
+
+(live: 1.2s)[He speaks, not with words but with a voice felt deep in your mind. "**Seekers of fate... You dare to trespass into the realm of the forgotten. Do you not know the price?**"]
+
+(live: 1.6s)[Levan steps back, Moriko grips his blade, but neither of them moves.]
+
+(live: 2.0s)[Moriko steps forward, raising a hand, as if to communicate something non-verbally.]
+
+[[Ask the Emperor a question|Emperor's Question]]
+
+
+:: Emperor's Question {"position":"575,3150","size":"100,100"}
+(live: 0.0s)[The Emperor stands before you, his presence overwhelming. A deep silence fills the air as he regards you with ancient, knowing eyes.]
+
+(live: 0.4s)[You feel a heavy pressure, as if the very air around you is charged with energy.]
+
+(live: 0.8s)[The Emperor speaks with a voice that resonates deeply within you.]
+
+Emperor: "You stand before me, mortal. You have questions, but time is short. Choose wisely."
+
+[[Ask, "Who are you?"|WhoAreYou]]
+[[Ask, "What is your plan?"|WhatIsYourPlan]]
+[[Ask, "Where is my brother?"|WhereIsMyBrother]]
+[[Stay Silent"|Silent]]
+
+
+
+
+:: Emperor's Question1 {"position":"1200,3125","size":"100,100"}
+(live: 0.0s)[The Emperor stands before you, his presence overwhelming. A deep silence fills the air as he regards you with ancient, knowing eyes.]
+
+(live: 0.4s)[You feel a heavy pressure, as if the very air around you is charged with energy.]
+
+(live: 0.8s)[The Emperor speaks with a voice that resonates deeply within you.]
+
+Emperor: "You stand before me, mortal. You have questions, but time is short. Choose wisely."
+
+[[Ask, "Who are you?"|WhoAreYou1]]
+[[Ask, "What is your plan?"|WhatIsYourPlan1]]
+[[Ask, "Where is my brother?"|WhereIsMyBrother1]]
+[[Stay Silent"|Silent1]]
+
+
+
+
+:: Everflame Arrival {"position":"425,2075","size":"100,100"}
+(live: 0.0s)[The towering gates of Maximoria rise before you, ancient and gleaming in the midday sun. The city hums with energy—stone streets echo with footsteps, banners ripple in the wind, and cathedral bells ring in the distance.]
+
+(live: 0.4s)[As you cross into the city, a strange weight settles on your chest. The air feels... dense. Pressing. Like a presence is watching from beneath the ground.]
+
+(live: 0.8s)[Moriko frowns. "Do you feel it? That pressure... It's him. The Emperor's essence still lingers here."]
+
+(live: 1.2s)[Levan shivers, rubbing his arms. "Let's not stay here longer than we have to."]
+
+(live: 1.6s)[Guided by city guards in golden armor, you're escorted to the heart of the city: the Grand Cathedral of Illumina, a spiraling marvel of light and crystal, reaching toward the heavens.]
+
+(live: 2.0s)[Inside, you're greeted by a tall, regal man in white and gold robes. His presence is calm yet commanding—**Kristinus Maximus**, the revered guardian of Maximoria.]
+
+(live: 2.4s)["I know why you’ve come," he says, voice resonating through the sacred hall. "The Everflame Beacon stirs, and omens ripple across the veil."]
+
+(live: 2.8s)[He steps closer, gaze firm. "The world shifts. You must go to the beacon, and seek its truth. Not just for yourselves—but for all who dwell in this realm."]
+
+(live: 3.2s)[Kristinus pauses, giving you a moment. "Before you go... ask what you must."]
+
+**What do you want to ask?**
+
+* [[Ask about the Emperor|Ask Emperor]]
+* [[Ask about the Everflame|Ask Everflame]]
+* [[Ask about Kristinus himself|Ask Kristinus]]
+* [[Say you’re ready to leave|Stair of Heaven]]
+
+
+:: Everflame Arrival2 {"position":"1150,2075","size":"100,100"}
+(live: 0.0s)[The towering gates of Maximoria rise before you, ancient and gleaming in the midday sun. The city hums with energy—stone streets echo with footsteps, banners ripple in the wind, and cathedral bells ring in the distance.]
+
+(live: 0.4s)[As you cross into the city, a strange weight settles on your chest. The air feels... dense. Pressing. Like a presence is watching from beneath the ground.]
+
+(live: 1.2s)[Levan shivers, rubbing his arms. "Let's not stay here longer than we have to."]
+
+(live: 1.6s)[Guided by city guards in golden armor, you're escorted to the heart of the city: the Grand Cathedral of Illumina, a spiraling marvel of light and crystal, reaching toward the heavens.]
+
+(live: 2.0s)[Inside, you're greeted by a tall, regal man in white and gold robes. His presence is calm yet commanding—**Kristinus Maximus**, the revered guardian of Maximoria.]
+
+(live: 2.4s)["I know why you’ve come," he says, voice resonating through the sacred hall. "The Everflame Beacon stirs, and omens ripple across the veil."]
+
+(live: 2.8s)[He steps closer, gaze firm. "The world shifts. You must go to the beacon, and seek its truth. Not just for yourselves—but for all who dwell in this realm."]
+
+(live: 3.2s)[Kristinus pauses, giving you a moment. "Before you go... ask what you must."]
+
+**What do you want to ask?**
+
+* [[Ask about the Emperor|Ask Emperor1]]
+* [[Ask about the Everflame|Ask Everflame1]]
+* [[Ask about Kristinus himself|Ask Kristinus1]]
+* [[Say you’re ready to leave|Stair of Heaven1]]
+
+
+:: Everflame Journey {"position":"400,1800","size":"100,100"}
+
+(live: 0.0s)[The journey continues through the dense forest, the trees growing thicker as the sun begins to dip behind the horizon.]
+
+(if: $levanInjured = 1)[
+    (live: 0.4s)[Levan stumbles and trips on a root, falling to the ground with a sharp grunt of pain. You rush over to him, helping him up as he grits his teeth.]
+    (live: 0.8s)["I'm fine," Levan insists, though it's clear he’s struggling.]
+    (live: 1.2s)[You decide to take a break for a moment, letting Levan rest while you assess the situation.]
+]
+
+(else:)[
+    (live: 0.4s)[Suddenly, you hear rustling in the bushes. Before you can react, a pack of wolves emerges, their eyes gleaming in the fading light.]
+    (live: 0.8s)[You draw your weapon, ready to defend yourself. The wolves circle, snarling and baring their teeth.]
+
+    (if: $weaponStrength is "weak")[
+        (live: 1.2s)[You feel the weight of your weapon and know that the odds are not in your favor. But there's no turning back now.]
+        (live: 1.6s)[You fight fiercely, but the wolves overpower you. You barely manage to hold your ground, taking down one before you’re forced to retreat.]
+        (live: 2.0s)[Moriko steps forward, silent as ever. His blade flashes in the dim light. With swift and precise movements, he takes down the remaining wolves.]
+        (live: 2.4s)["Stay alert," Moriko says, wiping his blade clean. "The world is full of dangers like these."]
+    ]
+    (else:)[
+        (live: 1.2s)[With your strong weapon in hand, you feel confident as the first wolf lunges toward you.]
+        (live: 1.6s)[You engage the pack of wolves, the fight brutal and fast. With every swing of your weapon, a wolf falls, and eventually the pack retreats, leaving the ground littered with their fallen bodies.]
+        (live: 2.0s)[Moriko, watching you fight, nods with approval. "Well done," he mutters.]
+        (live: 2.4s)[You gain 5 Crowns from deafeating the Wolves.]
+        (set: $money to $money + 5)
+        
+    ]
+    
+    (live: 2.4s)[Breathing heavily, you wipe the sweat from your brow. The immediate threat has passed, and you take a moment to gather yourself.]
+]
+
+(live: 2.8s)[Levan, still recovering, sits on a rock nearby, eyes wide. "That was... impressive," he says, clearly impressed by your skill.]
+
+(live: 3.2s)[After catching your breath, you both take a moment to rest. You sit with Levan as Moriko speaks up, his voice calm but filled with a certain weight.]
+
+(live: 3.6s)["You may have heard the stories of Maximoria and the wars that followed. What you may not know," Moriko continues, "is that the Emperor, Evantor, once ruled over much of this land. But his greed for power led him to make terrible choices. The people rebelled, and eventually, the Emperor was sealed away... in a prison, far, far beneath Maximoria."]
+
+(live: 4.0s)[Moriko pauses, his gaze distant, as though reflecting on the tale. "The exact location of that prison is a mystery. Rumors say it lies far under the city, deep in the earth, hidden from the world. Only a few know the truth... and those who do dare not speak of it."]
+
+(live: 4.4s)[Levan listens intently, his injury momentarily forgotten as the gravity of Moriko's words sinks in.]
+
+(live: 4.8s)["Maximoria, the city above, is not what it seems. The people live under the rule of a new leader, Kristinus Maximus, a man who seeks peace and prosperity. But many still fear the day Evantor will return, and with him, the power to shake the very foundations of this world."]
+
+(live: 5.2s)[You feel the weight of the journey ahead. The road to the Everflame Beacon has just begun, but the shadows of history and the threat of the Emperor linger in your thoughts.]
+
+[[Continue your journey|Everflame Journey Continued]]
+
+
+
+:: Everflame Journey Continued {"position":"425,1925","size":"100,100"}
+\:: Everflame Journey Continued
+(live: 0.0s)[The next morning, the forest opens up to reveal rolling hills and distant mountain ridges bathed in golden light. A dirt path winds ahead, leading toward a jagged silhouette on the horizon—the Everflame Beacon.]
+
+(live: 0.4s)[Moriko walks ahead, quiet and alert as ever. Levan follows, wincing now and then (if: $levanInjured)[as he favors his side.] (else:)[but otherwise steady.] You stick close, the tension of the previous day still lingering.]
+
+(live: 0.8s)["We'll need to be cautious from here," Moriko says. "This region borders the edge of the Broken Lands. Creatures from the rifts sometimes wander close."]
+
+(live: 1.2s)[You glance toward Levan. (if: $levanInjured)[He gives you a weak smile, clearly pushing through the pain.] (else:)[He walks with a bit more ease today, eyes scanning the terrain.]]
+
+(live: 1.6s)["What exactly is the Everflame?" you ask.]
+
+(live: 2.0s)[Moriko slows his pace, thoughtful. "A relic from the Age of Dawns. No one knows who lit it, only that it has never gone out. It burns with fire not of this world. Some say it reveals truths. Others... that it judges those who seek it."]
+
+(live: 2.4s)["And that’s where we’re headed?" Levan asks, raising a brow.]
+
+(live: 2.8s)["Yes," Moriko replies. "There’s something I must find—an answer tied to what’s coming. The dreams I’ve had, the stirrings in the rifts… it’s all connected."]
+
+(live: 3.2s)[You feel the pull of destiny in his words. Whatever lies at the beacon, it could change everything.]
+
+(live: 3.6s)[As the day wears on, you find a resting spot beside an ancient stone marker, covered in moss. Strange runes are carved into it, worn down by time.]
+
+(live: 4.0s)[Moriko kneels beside the stone, brushing the moss aside. "These symbols… they're warnings. Old ones."]
+
+(live: 4.4s)[Levan peers over. "Warnings of what?"]
+
+(live: 4.8s)[Moriko looks up, eyes sharp. "That something was buried here long ago. Something not meant to be disturbed. Let’s keep moving. We’re close."]
+
+[[Continue toward the Everflame Beacon|Everflame Arrival]]
+
+
+
+:: Everflame Journey Continued2 {"position":"1150,1950","size":"100,100"}
+\:: Everflame Journey Continued
+(live: 0.0s)[The next morning, the forest opens up to reveal rolling hills and distant mountain ridges bathed in golden light. A dirt path winds ahead, leading toward a jagged silhouette on the horizon—the Everflame Beacon.]
+
+(live: 0.4s)[You walk ahead, alert as ever. Levan follows, wincing now and then (if: $levanInjured)[as he favors his side.] (else:)[but otherwise steady.] You stick close, the tension of the previous day still lingering.]
+
+(live: 0.8s)["We'll need to be cautious from here," Levan says. "This region borders the edge of the Broken Lands. Creatures from the rifts sometimes wander close."]
+
+(live: 1.2s)[You look toward Levan. (if: $levanInjured)[He gives you a weak smile, clearly pushing through the pain.] (else:)[He walks with a bit more ease today, eyes scanning the terrain.]]
+
+(live: 1.6s)["What exactly is the Everflame?" you ask.]
+
+(live: 2.0s)[Levan slows his pace, thoughtful. "A relic from the Age of Dawns. No one knows who lit it, only that it has never gone out. It burns with fire not of this world. Some say it reveals truths. Others... that it judges those who seek it."]
+
+(live: 2.4s)[You feel the pull of destiny in his words. Whatever lies at the beacon, it could change everything.]
+
+(live: 2.8s)[As the day wears on, you find a resting spot beside an ancient stone marker, covered in moss. Strange runes are carved into it, worn down by time.]
+
+(live: 3.2s)[You kneels beside the stone, brushing the moss aside. "These symbols… they're warnings. Old ones."]
+
+(live: 3.6s)[Levan peers over. "Warnings of what?"]
+
+(live: 4.0s)["That something was buried here long ago. Something not meant to be disturbed. Let’s keep moving. We’re close."]
+
+[[Continue toward the Everflame Beacon|Everflame Arrival2]]
+
+
+
+:: Everflame Journey2 {"position":"1150,1825","size":"100,100"}
+
+(live: 0.0s)[The journey continues through the dense forest, the trees growing thicker as the sun begins to dip behind the horizon.]
+
+(if: $levanInjured = 1)[
+    (live: 0.4s)[Levan stumbles and trips on a root, falling to the ground with a sharp grunt of pain. You rush over to him, helping him up as he grits his teeth.]
+    (live: 0.8s)["I'm fine," Levan insists, though it's clear he’s struggling.]
+    (live: 1.2s)[You decide to take a break for a moment, letting Levan rest while you assess the situation.]
+]
+
+(else:)[
+    (live: 0.4s)[Suddenly, you hear rustling in the bushes. Before you can react, a pack of wolves emerges, their eyes gleaming in the fading light.]
+    (live: 0.8s)[You draw your weapon, ready to defend yourself. The wolves circle, snarling and baring their teeth.]
+
+    (if: $weaponStrength is "weak")[
+        (live: 1.2s)[You feel the weight of your weapon and know that the odds are not in your favor. But there's no turning back now.]
+        (live: 1.6s)[You fight fiercely, but the wolves overpower you. You barely manage to hold your ground, taking down one before you’re forced to retreat.]
+        (live: 2.0s)[You rumage through your bag looking for solutions. You take some pieces of meat and throw them to the wolves, you quickly grab levan and head deeper in the forest.]
+    (set: $money to $money - 5)]
+    ]
+    (else:)[
+        (live: 1.2s)[With your strong weapon in hand, you feel confident as the first wolf lunges toward you.]
+        (live: 1.6s)[You engage the pack of wolves, the fight brutal and fast. With every swing of your weapon, a wolf falls, and eventually the pack retreats, leaving the ground littered with their fallen bodies.]
+        (live: 2.4s)[You gain 5 Crowns from deafeating the Wolves.]
+        (set: $money to $money + 5)
+        
+    ]
+    
+    (live: 2.4s)[Breathing heavily, you wipe the sweat from your brow. The immediate threat has passed, and you take a moment to gather yourself.]
+]
+
+(live: 2.8s)[Levan, still recovering, sits on a rock nearby, eyes wide. "That was... impressive," he says, clearly impressed by your skill.]
+
+(live: 3.2s)[After catching your breath, you both take a moment to rest.]
+
+(live: 3.6s)[You feel the weight of the journey ahead. The road to the Everflame Beacon has just begun, but the shadows of history and the threat of the Emperor linger in your thoughts.]
+
+[[Continue your journey|Everflame Journey Continued2]]
+
+
+
+:: Fight {"position":"625,3425","size":"100,100"}
+(live: 0.0s)[Just as you prepare yourself, **Moriko** suddenly charges at the Emperor with a battle cry.]
+
+Moriko: "This ends now, Emperor!"
+
+(live: 0.4s)[**Moriko** moves with incredible speed, dodging the shockwave and closing the gap between himself and the Emperor in a single, decisive rush.]
+
+(live: 0.8s)[The Emperor sneers but doesn't move, clearly underestimating **Moriko’s** resolve. He raises a hand, trying to strike **Moriko** down with his dark energy.]
+
+Moriko: "I don’t fear you!"
+
+(live: 1.2s)[**Moriko** slashes at the Emperor’s barrier, sparks flying as his blade makes contact, but the Emperor’s energy repels him. Despite this, **Moriko** continues his assault with fierce determination.]
+
+(live: 1.6s)[Without hesitation, you follow **Moriko**, your weapon raised, joining him in the attack. The Emperor laughs cruelly.]
+
+Emperor: "How foolish. You think you can defeat me like this?"
+
+(live: 2.0s)[The Emperor’s energy surges once more, attempting to push you both back with another violent shockwave. You feel your footing slip as you struggle against the force.]
+
+(if: $weapon is "strong")[
+  (live: 2.4s)[With your strong weapon, you manage to keep your ground, cutting through the energy field to strike at the Emperor’s dark aura. Your blows seem to weaken his power bit by bit.]
+  (live: 2.8s)[**Moriko** grins, his confidence growing. "I knew you’d be able to keep up!" He presses the attack, slashing with precision.]
+]
+
+(if: $weapon is "Weak")[
+
+  (live: 2.4s)[Your weapon struggles to cut through the Emperor's defenses, but **Moriko** fights beside you, taking the brunt of the Emperor's power while you focus on dodging the shockwaves.]
+  (live: 2.8s)[**Moriko** yells out, "We can't let up! Keep fighting!" His strikes land with more force, though the Emperor's power is immense.]
+]
+
+(live: 3.2s)[Finally, after a tense moment, the Emperor steps back, his energy fluctuating with anger.]
+
+Emperor: "You may have surprised me, but this is far from over. The true battle is yet to come."
+
+[[Continue"|Next2]]
+
+
+
+
+:: Fight Alone {"position":"75,1150","size":"100,100"}
+(set: $levanInjured to true)
+
+(live: 0.0s)["Well well, fresh meat," sneers Rax’kesh. "You come for Stigi’s junk?"]
+
+(live: 0.4s)[Before you can respond, Moriko steps forward, silent as a whisper.]
+
+(live: 0.8s)[His hand drifts to the hilt of his blade.]
+
+(live: 1.2s)[In a blur of steel, he moves.]
+
+(live: 1.6s)[You barely have time to register what’s happening—Moriko spins, ducks, and lashes out.]
+
+(live: 2.0s)[The goblins drop one by one, their weapons clattering against stone.]
+
+(live: 2.4s)[Within seconds, the fight is over.]
+
+(live: 2.8s)[As you breathe in relief, you see that Levan is struggling to stand—one of the goblins managed to land a blow on him during the chaos.]
+
+(live: 3.2s)[Levan stumbles back, clutching his side, blood seeping through his fingers.]
+
+(live: 3.6s)["Levan!" you shout.]
+
+(live: 4.0s)[Moriko’s gaze flicks over to him, but he doesn’t break stride. “He’ll be fine,” he mutters, sheathing his blade.]
+
+(live: 4.4s)[You rush to Levan’s side, helping him to his feet.]
+
+(live: 4.8s)[Levan smiles weakly, grimacing. "I’ve had worse... but this will slow me down a bit."]
+
+(live: 5.2s)[You catch your breath, looking around at the fallen goblins and the bundle of goods marked with **Stigi Stig’s** emblem.]
+
+[[Return to Stigi Stig|Stig Recovery]]
+
+
+
+:: Fight Alone2 {"position":"1225,1125","size":"100,100"}
+(set: $levanInjured to true)
+
+(live: 0.0s)["Well well, fresh meat," sneers Rax’kesh. "You come for Stigi’s junk?"]
+
+(live: 0.4s)[You step forward, trying to hold your ground as the goblins close in.]
+
+(live: 0.8s)[Levan shifts behind you, unsure, his hand twitching near his belt.]
+
+(live: 1.2s)[You open your mouth to respond, but Rax’kesh doesn’t wait. With a barked order, the goblins lunge.]
+
+(live: 1.6s)[In the scramble, you manage to shove one away and fend off another.]
+
+(live: 2.0s)[But out of the corner of your eye, you see Levan stumble as a goblin slashes at him.]
+
+(live: 2.4s)[Levan cries out, clutching his side, blood already staining his tunic.]
+
+(live: 2.8s)[You grab the nearest goblin and hurl him aside, creating enough space to drag Levan back.]
+
+(live: 3.2s)[Rax’kesh snarls something crude but doesn't pursue, scooping up a handful of trinkets and retreating with his gang.]
+
+(live: 3.6s)[Panting, you help Levan to sit against the wall.]
+
+(live: 4.0s)[He gives you a weak smile. "Could've... gone better."]
+
+(live: 4.4s)[You look over the scattered goblins and ready your sword.]
+
+[[Recover the Goods|Goblin Fight]]
+
+
+:: Fight1 {"position":"1200,3550","size":"100,100"}
+(live: 2.4s)[Before you can speak, a strange sensation fills the air. The world around you flickers, reality warping like a mirage. Suddenly, the ground beneath your feet disappears, and you are thrust into an alternate dimension.]
+
+(live: 2.8s)[The air is thick with energy, the colors swirling around you in a kaleidoscope of light. Time feels distorted, and everything seems to stretch beyond the horizon. You see flashes of Rila’s past, vivid memories that flood your senses.]
+
+(live: 3.2s)[You stand in a young village, surrounded by people—Rila’s people. You see images of Rila and the hooded man, side by side, growing up together. You see their laughter, their struggles, their bond. You see them as children, unaware of the powers that lay within them.]
+
+(live: 3.6s)[The memories shift, and you feel Rila’s pain. You witness moments of loss, of betrayal, of solitude. You feel the loneliness Rila experienced as they wandered, searching for answers. But then, through the haze, you see the moment Rila left.]
+
+(live: 4.0s)[The memories start to fracture, and you witness Rila being taken away, hidden from the world. The Emperor’s face appears—cold, distant, and full of purpose. You see the anguish in Rila’s eyes, realizing the true weight of what was lost.]
+
+(live: 4.4s)[Then, through the last remnants of the vision, you see an image that shocks you to your core. You see The hooded man, standing before Rila, a solemn look on his face. He is not just a companion—he is Rila’s *brother*, the missing piece of their shared past.]
+
+(live: 4.8s)[The vision fades as quickly as it came, and you are thrust back into reality. You blink, disoriented, and look at The mysterious guy behind Evantor.]
+
+(live: 5.2s)[The truth is undeniable now. You are connected to him by more than just an enemy. You are brothers—siblings separated by fate but destined to reunite.]
+
+(live: 5.6s)[He takes of his hood and looks at you, his expression soft and full of regret.]
+
+(live: 6.0s)[You nod slowly, feeling the weight of the revelation settle in. The **Lumineth Link** had shown you everything—the past, the pain, the love, and the bond that could not be severed.]
+
+(live: 6.4s)[The Emperor, sensing the change in the air, sneers.]
+
+Emperor: "So, it’s true. The bond between you two is real. But it will mean nothing in the end. You will fall just like your brother before you."
+
+(live: 6.8s)[Rila steps forward, his voice unwavering.]
+
+"We may be brothers, but you will not control us. We have our own destiny."
+
+(live: 7.2s)[A spark of power ignites within Moriko, the **Lumineth Link** fueling his strength. The Emperor’s aura falters for just a moment, his arrogance slipping.]
+
+(live: 7.6s)[But the Emperor doesn’t back down. His power surges, dark and oppressive.]
+
+Emperor: "Enough! You will bow before me, or I will make you regret ever defying me."
+
+(live: 8.0s)[The tension in the air is palpable, thick with the promise of an impending conflict. The **Lumineth Link** pulses between you and Rila, but the Emperor’s power looms large.]
+
+(live: 8.8s)["You dare challenge me?" The Emperor's voice resounds in your mind, the words vibrating through your very being.]
+
+(live: 8.9s)[Rila steps toward him, his gaze never leaving yours. There's a moment of hesitation before hes pulled toward the Emperor.]
+
+(live: 9.4s)[The Emperor raises his hand, glowing with power, and in an instant, they vanish, leaving only a ripple in the air.]
+
+(live: 9.8s)["No..." you whisper, but it’s too late. They’re gone, leaving you with more questions than answers.]
+
+(live: 10.4s)[Levan looks to you, eyes wide. "What just happened?"]
+
+(live: 10.8s)[You shake your head, the weight of their disappearance settling heavily upon you.]
+
+(live: 11.2s)[You feel the air get heave before you again collapse.]
+
+[[Continue on your journey|Next3]]
+
+
+:: Goblin Fight {"position":"1425,1175","size":"100,100"}
+(live: 0.0s)[You grit your teeth, drawing your weapon. There's no backing down now.]
+
+(live: 0.4s)[Levan stands beside you, but you know you must act fast.]
+
+(live: 0.8s)[The first goblin charges — you sidestep and drive your blade into its side. Another leaps at you, but you knock it aside with a grunt.]
+
+(live: 1.2s)[You manage to cut down two more, their screeches echoing through the cavern.]
+
+(live: 1.6s)[Breathing heavily, you glance toward Rax'kesh — but it's too late.]
+
+(live: 2.0s)[The goblin leader lunges, blade flashing straight for your chest.]
+
+(live: 2.4s)[Suddenly, a strange sensation floods your senses — as if time slows.]
+
+(live: 2.8s)[Light bursts around you, silver and blue threads weaving through the air. You feel a deep pull within — ancient, familiar.]
+
+(live: 3.2s)[Your vision blurs — and for a heartbeat, you're somewhere else entirely.]
+
+(live: 3.6s)[In a world of swirling stars and luminous rivers, you see a figure standing far ahead. He glows with the same light binding your hands — his eyes meeting yours across the impossible distance.]
+
+(live: 4.0s)[Recognition burns inside you. Somehow, you know. He’s not just an ally. He’s connected to you — part of the truth you've been missing.]
+
+(live: 4.4s)[The world snaps back.]
+
+(live: 4.8s)[Your body moves on instinct, narrowly dodging Rax'kesh’s strike. Energy hums in your veins, your blade singing with new strength.]
+
+(live: 5.2s)[Rax'kesh stumbles back, confused by your sudden speed and power.]
+
+(live: 5.6s)[You tighten your grip on your weapon — ready.]
+
+[[Unleash your newfound power|Lumineth Strike]]
+
+
+
+
+:: Gortak's Stories {"position":"675,1225","size":"100,100"}
+(live: 0.0s)[Curious, you ask Gortak about the world, hoping to learn more.]
+
+(live: 0.4s)[Gortak strokes his chin thoughtfully, his old eyes narrowing as if weighing your question carefully.]
+
+(live: 0.8s)["Ah, the world is changing," he mutters. "The Emperor, Evantor, casts a long shadow over these lands. There are whispers of war, of divine powers fighting to control this world... but there's another force too. Something ancient, hidden, and not quite of this realm."]
+
+(live: 1.2s)[You ask him more about these forces, but Gortak shakes his head.]
+
+(live: 1.6s)["Not much more I can say. I don't involve myself with such things. Just know this: whatever you're after, it won't be easy to find. And if you're looking for answers about the Emperor, you might want to steer clear of places like Grubnash Hold. The wrong eyes are always watching."]
+
+
+
+[[Ask about his wares|Buy from Gortak]]
+[[Ask about the world|Gortak's Stories]]
+
+
+:: Gortak's Stories2 {"position":"1000,1200","size":"100,100"}
+(live: 0.0s)[Curious, you ask Gortak about the world, hoping to learn more.]
+
+(live: 0.4s)[Gortak strokes his chin thoughtfully, his old eyes narrowing as if weighing your question carefully.]
+
+(live: 0.8s)["Ah, the world is changing," he mutters. "The Emperor, Evantor, casts a long shadow over these lands. There are whispers of war, of divine powers fighting to control this world... but there's another force too. Something ancient, hidden, and not quite of this realm."]
+
+(live: 1.2s)[You ask him more about these forces, but Gortak shakes his head.]
+
+(live: 1.6s)["Not much more I can say. I don't involve myself with such things. Just know this: whatever you're after, it won't be easy to find. And if you're looking for answers about the Emperor, you might want to steer clear of places like Grubnash Hold. The wrong eyes are always watching."]
+
+
+
+[[Ask about his wares|Buy from Gortak2]]
+[[Ask about the world|Gortak's Stories2]]
+
+
+:: Grubnash Hold {"position":"375,950","size":"100,100"}
+(live: 0.0s)[The city is loud and chaotic, with goblins shouting deals from every corner.]
+(live: 0.2s)[Wooden scaffolding creaks under the weight of merchant stalls, and the air is thick with the smell of oil and metal.]
+(live: 0.4s)[A goblin merchant, **Stigi Stig**, waves at you frantically.]
+
+(live: 0.6s)["You there! You look like you can handle yourself."]
+(live: 0.8s)["That thief, **Rax’kesh**, stole from me!"]
+(live: 1.0s)["Get my goods back, and I'll make it worth your while!"]
+
+[[Ignore and find another merchant|Continue to Maximoria]]
+[[Help Stigi Stig|Confront Rax’kesh]]
+
+
+:: Grubnash Hold2 {"position":"1000,875","size":"100,100"}
+(live: 0.0s)[The city is loud and chaotic, with goblins shouting deals from every corner.]
+(live: 0.2s)[Wooden scaffolding creaks under the weight of merchant stalls, and the air is thick with the smell of oil and metal.]
+(live: 0.4s)[A goblin merchant, **Stigi Stig**, waves at you frantically.]
+
+(live: 0.6s)["You there! You look like you can handle yourself."]
+(live: 0.8s)["That thief, **Rax’kesh**, stole from me!"]
+(live: 1.0s)["Get my goods back, and I'll make it worth your while!"]
+
+[[Ignore and find another merchant|Continue to Maximoria2]]
+[[Help Stigi Stig|Confront Rax’kesh2]]
+
+
+:: Intro {"position":"950,50","size":"100,100"}
+<img src="https://i.postimg.cc/N03gvRTh/Starrt.png" />
+[[Start|StartToStart]]
+
+
+
+:: Levan Rescue {"position":"600,200","size":"100,100"}
+(live: 0.0s)[The sound of rushing water draws your attention.]
+(live: 0.8s)[You peer through the trees and spot a man thrashing in a fast-moving river.]
+(live: 1.6s)[He’s caught in the current — arms flailing, mouth open in a silent scream.]
+
+(live: 2.4s)[A sharp rock slams into his side, and he vanishes under the surface for a heartbeat.]
+
+(live: 3.2s)[You scan the bank. No rope. No bridge. Just jagged stones and icy water.]
+
+(live: 4.0s)[You don’t know him. He might be dangerous. Or worse — he might slow you down.]
+
+(live: 4.8s)[But something in your chest twists at the thought of walking away.]
+
+(live: 5.6s)[Do you risk your life to help a stranger in a world you barely understand?]
+
+[[Dive in and save him|Saved Levan]]
+[[Stand back and watch|Continue Alone]]
+
+
+
+
+:: Lumineth Strike {"position":"1450,1300","size":"100,100"}
+(live: 0.0s)[You surge forward, your blade gleaming with strange new energy.]
+
+(live: 0.4s)[Rax'kesh barely raises his weapon before you slice it from his grasp, the goblin leader screeching in fear.]
+
+(live: 0.8s)[One swift blow knocks him down, unconscious.]
+
+(live: 1.2s)[The remaining goblins, seeing their leader fall, scatter into the darkness, yelping and scrambling over each other to flee.]
+
+(live: 1.6s)[You stand there for a moment, heart pounding, feeling the last remnants of the Lumineth power fade from your limbs.]
+
+(live: 2.0s)[Levan stumbles over, breathing heavily. "That... was incredible," he says, wide-eyed.]
+
+(live: 2.4s)[You don't answer — your mind still spinning from the vision, and the undeniable bond you now feel.]
+
+(live: 2.8s)[You lower your weapon and move toward the back of the goblin camp.]
+
+(live: 3.2s)[There, hidden beneath scraps of leather and junk, you find the stolen supply bundles — marked with the merchant’s seal.]
+
+(live: 3.6s)[You heft the bundles onto your back. They're heavy, but the sense of victory carries you onward.]
+
+(live: 4.0s)[Nearby, Levan sifts through the scattered loot, finding a few scattered crowns as well.]
+
+(live: 4.4s)[You have recovered the supplies.]
+
+[[Return with the supplies|Return to Grubnash Hold]]
+
+
+:: Negotiation Attempt {"position":"325,1150","size":"100,100"}
+(live: 0.0s)["Well well, fresh meat," sneers Rax’kesh. "You come for Stigi’s junk?"]
+
+(live: 0.4s)[You raise your hands in peace. "We’re not here to fight. Just return what you stole, and we’ll leave peacefully."]
+
+(live: 0.8s)[Rax’kesh tilts his head. "Heh... brave words."]
+
+(live: 1.2s)[As he keeps you talking, you feel a sudden tug at your belt.]
+
+(live: 1.6s)[You spin around just in time to see one of his gang scurry off, clutching 5 of your crowns.]
+
+(set: $money to $money - 5)
+
+(live: 2.0s)["You little—!" you growl.]
+
+(live: 2.4s)[Before you can react, **Moriko** draws his sword with a flash of silver.]
+
+(live: 2.8s)["This doesn’t have to end in blood," he warns.]
+
+(live: 3.2s)[The goblins cackle and raise their crude weapons.]
+
+(live: 3.6s)[In a blur, Moriko moves.]
+
+(live: 4.0s)[Steel swings. In mere seconds, the gang lies unconscious or fleeing.]
+
+(live: 4.4s)[Rax’kesh groans on the ground, clutching a scorched wound.]
+
+(live: 4.8s)["You should’ve listened," Moriko mutters.]
+
+[[Return to Stigi Stig|Stig Recovery]]
+
+
+
+:: Negotiation Attempt2 {"position":"1450,1050","size":"100,100"}
+(live: 0.0s)["Well well, fresh meat," sneers Rax’kesh, leader of the goblins. "You come sniffing after Stigi’s junk?"]
+
+(live: 0.4s)[You raise your hands carefully. "We don't want trouble. Maybe we can make a deal."]
+
+(live: 0.8s)[The goblins glance at each other, amused.]
+
+(live: 1.2s)["A deal?" Rax’kesh snickers. "Here's our deal. You leave everything you own... and maybe we let you crawl away."]
+
+(live: 1.6s)[You notice one of the goblins circling around, creeping closer to Levan.]
+
+(live: 2.0s)[[Suddenly, the goblin lunges and snatches a small pouch from Levan’s belt — 5 crowns!] (set: $money to it - 5)]
+
+(live: 2.4s)[Levan shouts and tries to grab it back, but it's too late.]
+
+(live: 2.8s)[The goblins draw their rusty blades, sneering.]
+
+(live: 3.2s)["Shouldn't have talked so much," Rax’kesh snarls.]
+
+(live: 3.6s)[Steel flashes as the goblins attack!]
+
+[[Fight back!|Goblin Fight]]
+
+
+:: Next {"position":"475,3425","size":"100,100"}
+(live: 0.0s)[The Emperor’s presence looms over you, and just as you think the tension might ease, he sneers.]
+
+Emperor: "You dare ask questions of me? You are no different from the others."
+
+(live: 0.4s)[His voice grows cold and threatening, and the ground begins to vibrate beneath your feet.]
+
+Emperor: "You will learn the consequences of curiosity. Prepare yourselves!"
+
+(live: 0.8s)[The room trembles violently, and the air becomes charged with dark energy. Suddenly, the Emperor raises his hand and *slams* it down, causing a shockwave to hit you.]
+
+Moriko: "Stay sharp! He's no mere ruler—he's more dangerous than he lets on!"
+
+(live: 1.2s)[You brace yourself, instinctively drawing your weapon. Moriko does the same, his eyes narrowing as he prepares for whatever is coming next.]
+
+Emperor: "You will face my wrath and *then* the path ahead will truly reveal itself. But for now, you will learn your place."
+
+(live: 1.6s)[The room darkens even further, the Emperor's power enveloping the area. It feels like the weight of the world is bearing down on you.]
+
+Moriko: "We need to fight back—don't let him overwhelm you!"
+
+[[Fight the Emperor's Power|Fight]]
+
+
+
+:: Next1 {"position":"1200,3425","size":"100,100"}
+(live: 0.0s)[The Emperor’s presence looms over you, and just as you think the tension might ease, he sneers.]
+
+Emperor: "You dare ask questions of me? You are no different from the others."
+
+(live: 0.4s)[His voice grows cold and threatening, and the ground begins to vibrate beneath your feet.]
+
+Emperor: "You will learn the consequences of curiosity. Prepare yourselves!"
+
+(live: 0.8s)[The room trembles violently, and the air becomes charged with dark energy. Suddenly, the Emperor raises his hand and *slams* it down, causing a shockwave to hit you.]
+
+Levan: "Stay sharp! He's no mere ruler—he's more dangerous than he lets on!"
+
+(live: 1.2s)[You brace yourself, instinctively drawing your weapon. Eyes narrowing as you prepares for whatever is coming next.]
+
+Emperor: "You will face my wrath and *then* the path ahead will truly reveal itself. But for now, you will learn your place."
+
+(live: 1.6s)[The room darkens even further, the Emperor's power enveloping the area. It feels like the weight of the world is bearing down on you.]
+
+Levan: "We need to fight back—dont stop here, is the last you hear before you feel your body collapses as you see the hooded man behind Evantor."
+
+[[Mysterious powers|Fight1]]
+
+
+
+:: Next2 {"position":"625,3550","size":"100,100"}
+
+(live: 0.0s)[The Emperor's aura surges, shaking the very ground beneath your feet. His power intensifies as he stands tall, eyes glowing with a cold, calculated malice.]
+
+(live: 0.4s)[Levan steps forward, his expression hard and unyielding. He looks at you, then at the Emperor, his voice firm.]
+
+Levan: "I choose the Emperor. This is my fate. I will not turn back now."
+
+(live: 0.8s)[The Emperor grins, his eyes gleaming with satisfaction as he pats Levan’s shoulder.]
+
+Emperor: "You’ve made the right choice, Levan. Together, we will reshape this world."
+
+(live: 1.2s)[A chill runs down your spine as the realization dawns on you—Levan is the Emperor’s brother. The bond between them is undeniable, and this moment, their unity, feels like a betrayal of everything you believed.]
+
+(live: 1.6s)[Moriko, standing silently beside you, lowers his gaze. He’s not surprised. He steps forward, his voice low but filled with regret.]
+
+Moriko: "Levan... you are the Emperor's brother. I should have known. But this... I never thought you would choose this path."
+
+(live: 2.0s)[You turn to Moriko, your thoughts clouded. You are caught in this whirlwind of realization and confusion. And yet, you feel something stir inside you, something more powerful than just shock. The **Lumineth Link** pulses within you.]
+
+(live: 2.4s)[Before you can speak, a strange sensation fills the air. The world around you flickers, reality warping like a mirage. Suddenly, the ground beneath your feet disappears, and you are thrust into an alternate dimension.]
+
+(live: 2.8s)[The air is thick with energy, the colors swirling around you in a kaleidoscope of light. Time feels distorted, and everything seems to stretch beyond the horizon. You see flashes of Rila’s past, vivid memories that flood your senses.]
+
+(live: 3.2s)[You stand in a young village, surrounded by people—Rila’s people. You see images of Rila and Moriko, side by side, growing up together. You see their laughter, their struggles, their bond. You see them as children, unaware of the powers that lay within them.]
+
+(live: 3.6s)[The memories shift, and you feel Rila’s pain. You witness moments of loss, of betrayal, of solitude. You feel the loneliness Rila experienced as they wandered, searching for answers. But then, through the haze, you see the moment Moriko left.]
+
+(live: 4.0s)[The memories start to fracture, and you witness Rila being taken away, hidden from the world. The Emperor’s face appears—cold, distant, and full of purpose. You see the anguish in Rila’s eyes, realizing the true weight of what was lost.]
+
+(live: 4.4s)[Then, through the last remnants of the vision, you see an image that shocks you to your core. You see Moriko, standing before Rila, a solemn look on his face. He is not just a companion—he is Rila’s *brother*, the missing piece of their shared past.]
+
+(live: 4.8s)[The vision fades as quickly as it came, and you are thrust back into reality. You blink, disoriented, and look at Moriko.]
+
+(live: 5.2s)[The truth is undeniable now. You are connected to Moriko by more than just a bond of friendship. You are brothers—siblings separated by fate but destined to reunite.]
+
+(live: 5.6s)[Moriko looks at you, his expression soft and full of regret.]
+
+Moriko: "Rila... I didn't want you to find out this way. But now you understand, don't you? We are bound by blood, by this power."
+
+(live: 6.0s)[You nod slowly, feeling the weight of the revelation settle in. The **Lumineth Link** had shown you everything—the past, the pain, the love, and the bond that could not be severed.]
+
+(live: 6.4s)[The Emperor, sensing the change in the air, sneers.]
+
+Emperor: "So, it’s true. The bond between you two is real. But it will mean nothing in the end. You will fall just like your brother before you."
+
+(live: 6.8s)[Moriko steps forward, his voice unwavering.]
+
+Moriko: "We may be brothers, but you will not control us. We have our own destiny."
+
+(live: 7.2s)[A spark of power ignites within Moriko, the **Lumineth Link** fueling his strength. The Emperor’s aura falters for just a moment, his arrogance slipping.]
+
+(live: 7.6s)[But the Emperor doesn’t back down. His power surges, dark and oppressive.]
+
+Emperor: "Enough! You will bow before me, or I will make you regret ever defying me."
+
+(live: 8.0s)[The tension in the air is palpable, thick with the promise of an impending conflict. The **Lumineth Link** pulses between you and Moriko, but the Emperor’s power looms large.]
+
+(live: 8.4s)[You and Moriko exchange a glance, understanding each other without words. The final battle is about to begin.]
+
+[[The last memories|Next3]]
+
+
+
+:: Next3 {"position":"625,3675","size":"100,100"}
+(live: 6.4s)[You awaken with a start, your body tense. You’re no longer in the presence of the Emperor, but where you are—you're not sure.]
+
+(live: 6.8s)[The only sound is your ragged breathing, and the faint crackling of an unknown fire. You look around, but the shadows are too thick to see clearly. The Lumineth Link still pulses within you, but it feels… different now. It’s cold.]
+
+(live: 7.2s)[Suddenly, a figure steps into view, their features obscured by the darkness. You can’t make out who they are, but something about them feels… familiar.]
+
+(live: 7.6s)[The figure speaks, their voice calm, but with an undeniable sense of urgency.]
+
+Mysterious Voice: "You’ve made it this far, but the journey is far from over. The Emperor is not your only enemy. And you’re not alone in this fight."
+
+(live: 8.0s)[You take a step forward, still disoriented. The figure’s form shifts in the shadows, and you hear the faintest whisper.]
+
+Mysterious Voice: "Wake up, Rila. The real war is just beginning."
+
+(live: 8.4s)[Before you can speak or react, the figure disappears into the shadows, leaving you with nothing but the burning questions in your mind.]
+
+(live: 8.8s)[You Wake up and count your Money, you find $money crowns in your pocket.]
+
+
+
+[[Credits]]
+
+
+
+:: Path 1 {"position":"300,650","size":"100,100"}
+(if: $money >= 10)[
+  (live: 0.0s)[You nod and hand over 10 crowns to the bartender.]
+  (set: $money to $money - 10)
+  (live: 0.4s)[The mysterious man raises his glass. "To fate and the broken stars," he says, clinking his cup with yours.]
+  (live: 0.8s)[You talk late into the evening. His words are cryptic but strangely familiar.]
+]
+
+(else:)[
+  (live: 0.0s)[You check your coin pouch—there’s not enough.]
+  (live: 0.4s)[Levan notices and quietly slips you a handful of coins.]
+  (live: 0.8s)["Here. I’ve got you," he says. "Just be careful."]
+  (set: $money to -5)
+  (live: 1.2s)[You hand the money over and join the stranger for a drink.]
+  (live: 1.6s)[His eyes gleam in the low light as he raises a glass. "To fate and the broken stars."]
+]
+
+(live: 2.0s)[As the night deepens, the man leans in closer.]
+(live: 2.4s)["Name's Moriko," he says. "I'm on a journey to the Everflame. Something ancient stirs in this world, and I need answers."]
+(live: 2.8s)[You mention your lost powers and your missing brother.]
+(live: 3.2s)["Then perhaps fate *has* crossed our paths for a reason," Moriko muses.]
+(live: 3.6s)["Come with me. The Everflame may hold answers for us both."]
+
+[[Travel with Moriko to Grubnash Hold|Story]]
+
+
+
+:: Path 2 {"position":"975,575","size":"100,100"}
+(live: 0.0s)[You decline the drink, and the man sneers before leaving.]
+(live: 0.2s)[You and Levan discuss your next move and decide to head toward Grubnash Hold for supplies and information.]
+
+[[Travel with Levan to Grubnash Hold|Story2]]
+
+
+:: Return to Grubnash Hold {"position":"1325,1425","size":"100,100"}
+(live: 0.0s)[You return to the bustling market of Grubnash Hold, the sounds of trade echoing all around.]
+
+(live: 0.4s)[**Stigi Stig** spots you and rushes over, eyes wide.]
+
+(live: 0.8s)["Well? Did you get my stuff back?!"]
+
+(live: 1.2s)[You nod and drop a small sack of stolen goods at his feet.]
+
+(live: 1.6s)[He opens it quickly, inspecting the contents with greedy delight.]
+
+(live: 2.0s)["Ah! My precious gadgets, gears, and glimmering gunk! You did it! You actually did it!"]
+
+(live: 2.4s)[He rummages around behind his stall and produces a bundle wrapped in rough cloth.]
+
+(live: 2.8s)["A deal’s a deal. Supplies for your travels. Don’t say Stigi never gives back!"]
+
+(live: 3.2s)[You receive dried rations, a potion of minor healing, and a scrap-forged talisman said to ward off minor curses.]
+
+(live: 4.0s)["Watch your back out there," Stigi warns. "This world’s no friend to strangers."]
+(set: $weapon to "Strong")
+[[Continue your journey|Travel to Maximoria2]]
+
+
+
+:: Saved Levan {"position":"600,350","size":"100,100"}
+
+(live: 0.0s)[You plunge into the icy river, the current pulling hard against your limbs.]
+(live: 0.8s)[The man surfaces again, gasping — you reach him just in time and drag him back toward the shore.]
+(live: 1.6s)[You both collapse onto the muddy bank, coughing and shaking.]
+
+(live: 2.4s)["You… actually did it," he breathes, voice hoarse. "I thought I was done for."]
+
+(live: 3.2s)[He sits up slowly, water dripping from his clothes.]
+
+(live: 4.0s)["Name’s Levan. You saved my life. That kind of thing matters around here."]
+
+(live: 4.8s)[He pulls a small pouch from under his soaked tunic and hands it to you.]
+
+(set: $money to it + 10)
+
+(live: 5.6s)["It’s not much, but ten crowns is ten crowns. You’ve earned it."]
+
+(live: 6.4s)["Come on. There’s a tavern nearby. We can dry off and talk about what comes next."]
+
+[[Go to the tavern|ToTavern]]
+
+
+
+:: Sell Dagger {"position":"425,1325","size":"100,100"}
+(set: $money to $money + 5)
+(set: $weapon to "Strong")
+(live: 0.0s)[You reluctantly hand over your dagger to Gortak. He inspects it briefly before nodding, handing you the supplies in return.]
+
+(live: 0.4s)["A fair trade," Gortak says. "That will serve you well on your journey." He pushes the map, salve, and provisions toward you.]
+
+(live: 0.8s)[You take the supplies, feeling the loss of your dagger, but knowing it's necessary for the road ahead.]
+
+[[Continue your journey|Travel to Maximoria]]
+
+
+:: Sell Dagger2 {"position":"825,1350","size":"100,100"}
+(set: $money to $money + 5)
+(set: $weapon to "Strong")
+(live: 0.0s)[You reluctantly hand over your dagger to Gortak. He inspects it briefly before nodding, handing you the supplies in return.]
+
+(live: 0.4s)["A fair trade," Gortak says. "That will serve you well on your journey." He pushes the map, salve, and provisions toward you.]
+
+(live: 0.8s)[You take the supplies, feeling the loss of your dagger, but knowing it's necessary for the road ahead.]
+
+[[Continue your journey|Travel to Maximoria2]]
+
+
+:: Sell Sword {"position":"550,1325","size":"100,100"}
+(set: $money to $money + 10)
+(set: $weapon to "Weak")
+(live: 0.0s)[You hesitate for a moment, but ultimately hand over your sword. Gortak takes it with an appreciative nod, handing you the goods in exchange.]
+
+(live: 0.4s)["A fine blade," he remarks, "but these provisions will serve you better for now." He passes the supplies over to you.]
+
+(live: 0.8s)[You feel the weight of losing your sword, but the map and healing salve will be invaluable on your journey.]
+
+[[Continue your journey|Travel to Maximoria]]
+
+
+:: Sell Sword2 {"position":"975,1375","size":"100,100"}
+(set: $money to $money + 10)
+(set: $weapon to "Weak")
+(live: 0.0s)[You hesitate for a moment, but ultimately hand over your sword. Gortak takes it with an appreciative nod, handing you the goods in exchange.]
+
+(live: 0.4s)["A fine blade," he remarks, "but these provisions will serve you better for now." He passes the supplies over to you.]
+
+(live: 0.8s)[You feel the weight of losing your sword, but the map and healing salve will be invaluable on your journey.]
+
+[[Continue your journey|Travel to Maximoria2]]
+
+
+:: Share Your Story {"position":"337.5,1650","size":"100,100"}
+(live: 0.0s)[You take a deep breath and begin telling them about your past, about how you and your brother Rila traveled through dimensions, and how you both ended up in Zeyvar.]
+
+(live: 0.4s)[Levan listens intently, his brow furrowed as he processes the information. "That’s... quite a tale," he says slowly. "No wonder you're so determined to find your brother. But there’s more at stake here than just your personal journey." He looks around, as if the forest itself might be listening.]
+
+(live: 0.8s)[Moriko speaks up, his voice low and calm. "This world is not like the others. The forces at play here are older than the gods themselves. You’re not the only one seeking answers. Everyone is looking for something." He pauses. "Just be careful who you trust. Not everything that glitters is gold."]
+
+(live: 1.2s)[You nod, taking in Moriko’s words. It seems there’s more to this world than you realized.]
+
+(live: 1.6s)[As you continue on the path, the weight of your mission grows heavier. But you’re not alone anymore. You have allies now, and together, you might just have a chance to unravel the mystery of Zeyvar.]
+
+[[Continue toward the Everflame Beacon|Everflame Journey]]
+
+
+
+:: Share Your Story2 {"position":"1137.5,1675","size":"100,100"}
+(live: 0.0s)[You take a deep breath and begin telling him about your past, about how you and your brother Rila traveled through dimensions, and how you both ended up in Zeyvar.]
+
+(live: 0.4s)[Levan listens intently, his brow furrowed as he processes the information. "That’s... quite a tale," he says slowly. "No wonder you're so determined to find your brother. But there’s more at stake here than just your personal journey." He looks around, as if the forest itself might be listening.]
+
+(live: 0.8s)[As you continue on the path, the weight of your mission grows heavier. But you’re not alone anymore. You have allies now, and together, you might just have a chance to unravel the mystery of Zeyvar.]
+
+[[Continue toward the Everflame Beacon|Everflame Journey2]]
+
+
+
+:: Silent {"position":"825,3275","size":"100,100"}
+(live: 0.0s)[You remain silent, your thoughts racing as the Emperor watches you. Time passes in uncomfortable stillness.]
+
+(live: 0.4s)[The Emperor does not seem to mind your silence, but you feel the weight of your unspoken questions.]
+
+Emperor: "Silence speaks volumes, mortal. But do not forget, time is never in your favor."
+
+
+[[Next]]
+
+
+:: Silent1 {"position":"1350,3250","size":"100,100"}
+(live: 0.0s)[You remain silent, your thoughts racing as the Emperor watches you. Time passes in uncomfortable stillness.]
+
+(live: 0.4s)[The Emperor does not seem to mind your silence, but you feel the weight of your unspoken questions.]
+
+Emperor: "Silence speaks volumes, mortal. But do not forget, time is never in your favor."
+
+
+[[Continue"|Next1]]
+
+
+:: Stair of Heaven {"position":"450,2425","size":"100,100"}
+(live: 0.0s)[Before you rises the **Stair of Heaven**—an ancient, crumbling staircase carved into the cliff itself.]
+(live: 0.4s)[Legends say that only those with pure intentions reach the top.]
+(live: 0.8s)[The wind howls around you, carrying faint whispers from forgotten ages.]
+(live: 1.2s)[With a steady breath, you begin the climb.]
+
+(live: 1.6s)[The stones are slick with moss. Each step feels heavier than the last, as if unseen hands try to pull you down.]
+
+(live: 2.0s)[Your legs burn. The sky above shimmers strangely, a veil of gold and silver mist.]
+
+(live: 2.4s)[Finally, after what feels like hours, you reach the summit.]
+
+(live: 2.8s)[There, hidden in the clouds, stands a lone **statue**—its features worn by time, its presence commanding reverence.]
+
+[[Approach the Statue|Statue]]
+
+
+:: Stair of Heaven1 {"position":"1150,2425","size":"100,100"}
+(live: 0.0s)[Before you rises the **Stair of Heaven**—an ancient, crumbling staircase carved into the cliff itself.]
+(live: 0.4s)[Legends say that only those with pure intentions reach the top.]
+(live: 0.8s)[The wind howls around you, carrying faint whispers from forgotten ages.]
+(live: 1.2s)[With a steady breath, you begin the climb.]
+
+(live: 1.6s)[The stones are slick with moss. Each step feels heavier than the last, as if unseen hands try to pull you down.]
+
+(live: 2.0s)[Your legs burn. The sky above shimmers strangely, a veil of gold and silver mist.]
+
+(live: 2.4s)[Finally, after what feels like hours, you reach the summit.]
+
+(live: 2.8s)[There, hidden in the clouds, stands a lone **statue**—its features worn by time, its presence commanding reverence.]
+
+[[Approach the Statue|Statue1]]
+
+
+:: Start {"position":"600,75","size":"100,100"}
+(set: $money to 0)
+
+(live: 0.0s)[You wake up on the shore of a strange, unfamiliar land.]
+(live: 0.2s)[The salty air stings your skin, and the sound of crashing waves fills your ears.]
+(live: 0.4s)[Your body aches, as if you’ve been washed ashore after a long journey.]
+(live: 0.6s)[You groggily sit up and survey your surroundings—strange rocks, distant mountains, and thick forests loom in the distance.]
+(live: 0.8s)[The memories of your last moments are fuzzy, but you remember one thing: your brother, Rila, has been taken by some divine being.]
+(live: 1.0s)[Your powers are gone, and you feel weak and alone, the world around you feeling distant and foreign.]
+(live: 1.2s)[The journey ahead is unclear, but you know one thing: you must find Rila and restore what was lost.]
+
+
+[[Save Levan from drowning|Levan Rescue]]
+
+
+:: StartToStart {"position":"775,25","size":"100,100"}
+
+
+(live: 0.0s)[For years, you and your brother Rila have wandered the threads between dimensions.]
+
+(live: 0.8s)[You’ve seen worlds torn by fire and ruled by song — kingdoms built on clouds, empires born in shadow.]
+
+(live: 1.6s)[You are Dimensional Striders — bound not to any one world, but to the pulse between them.]
+
+(live: 2.4s)[Each step into the void was a gamble, each leap guided by instinct and trust in one another.]
+
+(live: 3.2s)[Until Zeyvar.]
+
+(live: 4.0s)[This world was different. Something ancient watched as you arrived.]
+
+(live: 4.8s)[A divine presence descended like a storm.]
+
+(live: 5.6s)[You tried to shield Rila — but in a flash of white and soundless force, he was gone.]
+
+(live: 6.4s)[Your strength, your power, your bond — shattered in an instant.]
+
+(live: 7.2s)[Darkness swallowed you.]
+
+(live: 8.0s)[...and then, light.]
+
+(live: 8.8s)[You wake up cold, soaked, and alone on a desolate shoreline.]
+
+								[[Begin your journey|Start]]
+
+
+
+:: Statue {"position":"600,2550","size":"100,100"}
+(set: $offerChoice to 0)
+
+(live: 0.0s)[You stand before an ancient statue carved from ancient stone, weathered but still powerful.]
+(live: 0.4s)[A strange pressure seems to ask for an offering.]
+(live: 0.8s)[You check your pockets and count carefully: **You have $money crowns.**]
+(live: 1.2s)[How much do you wish to offer?]
+
+[[Offer 10%->StatueOffer][$offerChoice to 10]]
+[[Offer 25%->StatueOffer][$offerChoice to 25]]
+[[Offer 50%->StatueOffer][$offerChoice to 50]]
+[[Offer 75%->StatueOffer][$offerChoice to 75]]
+[[Offer 100%->StatueOffer][$offerChoice to 100]]
+[[Offer nothing->StatueOffer][$offerChoice to 0]]
+
+
+
+:: Statue1 {"position":"1150,2550","size":"100,100"}
+(set: $offerChoice to 0)
+
+(live: 0.0s)[You stand before an ancient statue carved from ancient stone, weathered but still powerful.]
+(live: 0.4s)[A strange pressure seems to ask for an offering.]
+(live: 0.8s)[You check your pockets and count carefully: **You have $money crowns.**]
+(live: 1.2s)[How much do you wish to offer?]
+
+[[Offer 10%->StatueOffer1][$offerChoice to 10]]
+[[Offer 25%->StatueOffer1][$offerChoice to 25]]
+[[Offer 50%->StatueOffer1][$offerChoice to 50]]
+[[Offer 75%->StatueOffer1][$offerChoice to 75]]
+[[Offer 100%->StatueOffer1][$offerChoice to 100]]
+[[Offer nothing->StatueOffer1][$offerChoice to 0]]
+
+
+
+:: StatueOffer {"position":"450,2675","size":"100,100"}
+(set: $offer to it)
+
+(if: $offer is "10")[
+You place a modest 10% of your crowns at the statue's feet. The coins shimmer, then vanish into the stone.  
+A faint warmth brushes your skin—barely noticeable.
+]
+
+(else-if: $offer is "25")[
+You offer a quarter of your coins. As they vanish, you feel a soft breeze and a flicker of peace settles in your chest.
+]
+
+(else-if: $offer is "50")[
+You sacrifice half your coins. The statue seems to glow slightly.  
+Your heart feels lighter, and a strange calm washes over you.
+]
+
+(else-if: $offer is "75")[
+You give most of what you have. The statue pulses with a deep golden light.  
+Power seems to flow into you, and the world sharpens around the edges. You feel... blessed.
+]
+
+[[Continue]]
+
+
+:: StatueOffer1 {"position":"1075,2700","size":"100,100"}
+(set: $offer to it)
+
+(if: $offer is "10")[
+You place a modest 10% of your crowns at the statue's feet. The coins shimmer, then vanish into the stone.  
+A faint warmth brushes your skin—barely noticeable.
+]
+
+(else-if: $offer is "25")[
+You offer a quarter of your coins. As they vanish, you feel a soft breeze and a flicker of peace settles in your chest.
+]
+
+(else-if: $offer is "50")[
+You sacrifice half your coins. The statue seems to glow slightly.  
+Your heart feels lighter, and a strange calm washes over you.
+]
+
+(else-if: $offer is "75")[
+You give most of what you have. The statue pulses with a deep golden light.  
+Power seems to flow into you, and the world sharpens around the edges. You feel... blessed.
+]
+
+[[Continue1]]
+
+
+:: Stay Silent {"position":"475,1650","size":"100,100"}
+(live: 0.0s)[You choose to remain silent, the weight of your journey heavy on your shoulders. You walk alongside your companions, listening to the sounds of the forest as you go.]
+
+(live: 0.4s)[Levan and Moriko both seem to sense your desire for solitude. They don’t press you for answers. Instead, they simply walk in silence, each lost in their own thoughts.]
+
+(live: 0.8s)[The air grows colder as you move farther from Grubnash Hold, the trees beginning to close in around you. The world feels quieter here, as though something is waiting.]
+
+(live: 1.2s)[Moriko glances at you, but doesn’t say anything. His gaze is sharp, alert. As always, he seems ready for anything.]
+
+(live: 1.6s)[Levan gives a small sigh, but continues on, his eyes scanning the road ahead.]
+
+(live: 2.0s)[Though the silence is heavy, it gives you time to reflect on everything that’s happened so far—and everything that’s yet to come.]
+
+[[Continue toward the Everflame Beacon|Everflame Journey]]
+
+
+:: Stay Silent2 {"position":"1300,1700","size":"100,100"}
+(live: 0.0s)[You choose to remain silent, the weight of your journey heavy on your shoulders. You walk alongside your companion, listening to the sounds of the forest as you go.]
+
+(live: 0.4s)[Levan seems to sense your desire for solitude. He doesnt press you for answers. Instead, he simply walks in silence, lost in his own thoughts.]
+
+(live: 0.8s)[The air grows colder as you move farther from Grubnash Hold, the trees beginning to close in around you. The world feels quieter here, as though something is waiting.]
+
+(live: 1.6s)[Levan gives a small sigh, but continues on, his eyes scanning the road ahead.]
+
+(live: 2.0s)[Though the silence is heavy, it gives you time to reflect on everything that’s happened so far—and everything that’s yet to come.]
+
+[[Continue toward the Everflame Beacon|Everflame Journey2]]
+
+
+:: Stig Recovery {"position":"200,1250","size":"100,100"}
+(live: 0.0s)[You return to the bustling market of Grubnash Hold, the sounds of trade echoing all around.]
+
+(live: 0.4s)[**Stigi Stig** spots you and rushes over, eyes wide.]
+
+(live: 0.8s)["Well? Did you get my stuff back?!"]
+
+(live: 1.2s)[You nod and drop a small sack of stolen goods at his feet.]
+
+(live: 1.6s)[He opens it quickly, inspecting the contents with greedy delight.]
+
+(live: 2.0s)["Ah! My precious gadgets, gears, and glimmering gunk! You did it! You actually did it!"]
+
+(live: 2.4s)[He rummages around behind his stall and produces a bundle wrapped in rough cloth.]
+
+(live: 2.8s)["A deal’s a deal. Supplies for your travels. Don’t say Stigi never gives back!"]
+
+(live: 3.2s)[You receive dried rations, a potion of minor healing, and a scrap-forged talisman said to ward off minor curses.]
+
+(live: 3.6s)[Moriko raises an eyebrow, but says nothing.]
+
+(live: 4.0s)["Watch your back out there," Stigi warns. "This world’s no friend to strangers."]
+(set: $weapon to "Strong")
+[[Continue your journey|Travel to Maximoria]]
+
+
+
+:: Story {"position":"325,775","size":"100,100"}
+(live: 0.4s)[The three of you—**you**, **Levan**, and **Moriko**—step out of the tavern into the misty night.]
+(live: 0.8s)[The streets glisten with recent rain, and the distant hum of nocturnal creatures stirs beyond the city's wooden walls.]
+(live: 1.2s)[As you walk, Moriko speaks in a low voice.]
+
+(live: 1.6s)["Zeyvar is a fractured realm," he begins. "Not born, but **torn** into existence. It wasn't always like this."]
+(live: 2.0s)["Long ago, the veil between planets was ripped open. Power poured in... and with it, **chaos**."]
+(live: 2.4s)[He pauses, looking up at the stormy sky.]
+(live: 2.8s)["Some rose to protect the land. Others? They sought dominion. That’s where **he** came in... the Emperor."]
+(live: 3.2s)["Evantor was once a man, they say. But what he became... was something else. Something unnatural."]
+(live: 3.6s)["He bent shadows and flame, raised monuments of fear, and demanded worship. Whole cities fell under his will."]
+
+(live: 4.0s)[Levan walks in silence, listening intently.]
+(live: 4.4s)[You feel a chill crawl along your spine as Moriko continues.]
+
+(live: 4.8s)["Some believe he still whispers in the dark places of the world. That his touch never fully faded."]
+(live: 5.2s)["I need to know the truth. And the **Everflame**... it’s where legends say echoes of the first light still burn."]
+(live: 5.6s)["If anything can reveal the truth, or the path forward... it's there."]
+
+(live: 6.0s)[You exchange a glance with Levan. Your journey has just begun, but already the weight of something ancient presses on your chest.]
+
+
+
+[[Enter Grubnash Hold|Grubnash Hold]]
+
+
+:: Story2 {"position":"975,700","size":"100,100"}
+[[Enter Grubnash Hold|Grubnash Hold2]]
+
+
+:: Tavern Meeting {"position":"600,650","size":"100,100"}
+(live: 0.0s)[Inside the dimly lit tavern, the scent of ale and roasted meat fills the air.]
+(live: 0.2s)[Levan orders drinks while you scan the room.]
+(live: 0.4s)[A mysterious hooded man approaches and offers to drink with you, claiming he has valuable knowledge about this world.]
+
+(live: 0.6s)[You currently have $money crowns.]
+
+[[Spend all your money|Path 1]]
+[[Decline and save your money|Path 2]]
+
+
+:: ToTavern {"position":"600,500","size":"100,100"}
+(live: 0.0s)[As the two of you walk down a muddy path lined with crooked lanterns, the silence is broken.]
+
+(live: 1.0s)["Name’s Rilo," you say, your voice low. "I came here with my brother. Something… took him. And I lost my powers when it happened. I don’t even know what I am here."]
+
+(live: 2.5s)[Levan nods slowly, his expression unreadable. "Rilo, huh? That’s not a name from around here. But then again, neither are you."]
+
+(live: 3.5s)["This place—Zeyvar—isn’t just one world. It’s many, mashed together like pieces of broken glass. Things end up here… people, ruins, magic."]
+
+(live: 4.5s)["Most folk just survive. But a rare few are chosen—marked by the Divine Blessing. They say it grants power, purpose… a connection to something higher."]
+
+(live: 5.5s)["But blessings are rare. And lately? They're going silent. Like the gods turned their backs."]
+
+(live: 6.5s)[He glances at you. "Maybe you’ll get yours back. Or maybe Zeyvar has something else in store for you. Either way... best to keep your guard up."]
+
+(live: 7.5s)[You arrive at the edge of a lantern-lit square, where a crooked wooden sign swings in the breeze: **The Withered Flame Tavern**.]
+
+[[Enter the tavern|Tavern Meeting]]
+
+
+
+:: Travel to Maximoria {"position":"400,1525","size":"100,100"}
+(live: 0.0s)[With your newly acquired supplies, you and your companions make your way out of Grubnash Hold. The bustling city of goblins begins to fade behind you as you step into the wilderness.]
+
+(live: 0.4s)[The sun hangs low in the sky, casting long shadows across the rocky paths. The sounds of the city are replaced by the distant calls of birds and the rustle of the wind through the trees.]
+
+(if: $levanInjured is true)[
+  (live: 0.8s)[Levan winces slightly as he takes a step, his movements slower than usual. It’s clear that the fight earlier has taken a toll on him, but he’s trying to hide it.]
+  (live: 1.2s)[You glance at him, concerned, but he brushes it off with a forced smile. "I’m fine," he mutters, though his voice lacks its usual confidence.]
+]
+
+(live: 1.6s)[Moriko walks ahead of you, his steps measured and purposeful. "We may not have much time," he says quietly. "The Emperor’s influence is spreading, and with it, darker forces. We must act quickly."]
+
+(live: 2.0s)[As you continue down the road, the landscape shifts. The rocky terrain gives way to dense forest, and the air grows cooler.]
+
+(live: 2.4s)[You can feel the tension in the air, as if the world itself is holding its breath. Every step you take feels like you're moving deeper into something unknown.]
+
+(live: 2.8s)[Levan suddenly stops and turns to you. "Tell me more about your journey," he says, his eyes searching yours. "How did you end up in Zeyvar? What is it that you’re really seeking here?" he asks, his curiosity evident.]
+
+(live: 3.2s)[Moriko doesn’t speak, but his hand rests lightly on the hilt of his sword. He seems to be keeping watch for any threats that might appear along the path.]
+
+[[Share your story with Levan and Moriko|Share Your Story]]
+[[Remain silent and continue walking|Stay Silent]]
+
+
+:: Travel to Maximoria2 {"position":"1200,1550","size":"100,100"}
+(live: 0.0s)[With your newly acquired supplies, you and your companion make your way out of Grubnash Hold. The bustling city of goblins begins to fade behind you as you step into the wilderness.]
+
+(live: 0.4s)[The sun hangs low in the sky, casting long shadows across the rocky paths. The sounds of the city are replaced by the distant calls of birds and the rustle of the wind through the trees.]
+
+(if: $levanInjured is true)[
+  (live: 0.8s)[Levan winces slightly as he takes a step, his movements slower than usual. It’s clear that the fight earlier has taken a toll on him, but he’s trying to hide it.]
+  (live: 1.2s)[You glance at him, concerned, but he brushes it off with a forced smile. "I’m fine," he mutters, though his voice lacks its usual confidence.]
+]
+
+(live: 2.0s)[As you continue down the road, the landscape shifts. The rocky terrain gives way to dense forest, and the air grows cooler.]
+
+(live: 2.4s)[You can feel the tension in the air, as if the world itself is holding its breath. Every step you take feels like you're moving deeper into something unknown.]
+
+(live: 2.8s)[Levan suddenly stops and turns to you. "Tell me more about your journey," he says, his eyes searching yours. "How did you end up in Zeyvar? What is it that you’re really seeking here?" he asks, his curiosity evident.]
+
+
+[[Share your story with Levan |Share Your Story2]]
+[[Remain silent and continue walking|Stay Silent2]]
+
+
+:: WhatIsYourPlan {"position":"575,3275","size":"100,100"}
+(live: 0.0s)[You ask the Emperor, "What is your plan?"]
+
+(live: 0.4s)[The Emperor's gaze hardens, his eyes narrowing.]
+
+Emperor: "My plan is to reshape the world in my image. The time of the old world is over, and a new era begins. The Everflame will guide the way."
+
+[[Next]]
+
+
+:: WhatIsYourPlan1 {"position":"1125,3250","size":"100,100"}
+(live: 0.0s)[You ask the Emperor, "What is your plan?"]
+
+(live: 0.4s)[The Emperor's gaze hardens, his eyes narrowing.]
+
+Emperor: "My plan is to reshape the world in my image. The time of the old world is over, and a new era begins. The Everflame will guide the way."
+
+[[Continue"|Next1]]
+
+
+:: WhereIsMyBrother {"position":"700,3275","size":"100,100"}
+(live: 0.0s)[You ask the Emperor, "Where is my brother?"]
+
+(live: 0.4s)[The Emperor's expression softens, as if considering something.]
+
+(live: 0.6s)[These Mortal humans cant comprehend this world.]
+
+
+Emperor: "Your brother? He is beyond your reach, lost to the rift. The paths you seek are entwined with fate, and fate has not smiled on him."
+
+[[Next]]
+
+
+:: WhereIsMyBrother1 {"position":"1250,3250","size":"100,100"}
+(live: 0.0s)[You ask the Emperor, "Where is my brother?"]
+
+(live: 0.4s)[The Emperor's expression softens, as if considering something.]
+
+(live: 0.6s)[These Mortal humans cant comprehend this world.]
+
+
+Emperor: "Your brother? He is beyond your reach, lost to the rift. The paths you seek are entwined with fate, and fate has not smiled on him."
+
+[[Continue"|Next1]]
+
+
+:: WhoAreYou {"position":"450,3275","size":"100,100"}
+(live: 0.0s)[You ask the Emperor, "Who are you?"]
+
+(live: 0.4s)[The Emperor smiles, a dark, ancient smile that sends a chill down your spine.]
+
+Emperor: "I am Evantor, the one who once ruled all. I am the eternal force that guides this realm, bound by powers you cannot comprehend."
+
+
+[[Next]]
+
+
+:: WhoAreYou1 {"position":"1000,3250","size":"100,100"}
+(live: 0.0s)[You ask the Emperor, "Who are you?"]
+
+(live: 0.4s)[The Emperor smiles, a dark, ancient smile that sends a chill down your spine.]
+
+Emperor: "I am Evantor, the one who once ruled all. I am the eternal force that guides this realm, bound by powers you cannot comprehend."
+
+
+[[Continue"|Next1]]
