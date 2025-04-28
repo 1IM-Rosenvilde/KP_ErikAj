@@ -17,9 +17,35 @@ function resizeTaskbarOnScroll() {
     if (scrollY < 10 && isHeaderSmall) {
         TopText.style.padding = "20px";
         TopText.style.fontSize = "2em";
-        isHeaderSmall = false;  // Mark header as 
+        isHeaderSmall = false;  // Mark header as large
         console.log(scrollY);
     }
+}
+
+// Function to handle search functionality
+function handleSearch() {
+    const searchInput = document.querySelector('.topnav input[type="text"]');
+    const sections = document.querySelectorAll('div[id], section[id]'); // Select all sections with IDs
+
+    searchInput.addEventListener('input', function() {
+        const searchTerm = searchInput.value.toLowerCase();
+        let closestSection = null;
+        let closestDistance = Infinity;
+
+        sections.forEach(section => {
+            const sectionId = section.id.toLowerCase();
+            const distance = sectionId.indexOf(searchTerm);
+
+            if (distance !== -1 && distance < closestDistance) {
+                closestDistance = distance;
+                closestSection = section;
+            }
+        });
+
+        if (closestSection) {
+            closestSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
 }
 
 // Initialize AOS and other functions after page load
@@ -36,6 +62,9 @@ window.addEventListener('load', function() {
 
     // Ensure scroll position starts at the top on page load
     window.scrollTo(0, 0);
+
+    // Initialize search functionality
+    handleSearch();
 });
 
 // Add scroll event listener without debounce (simplified)
